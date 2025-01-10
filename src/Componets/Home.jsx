@@ -1,5 +1,4 @@
 import Banner from "../assets/images/Banner.png";
-// import ocean from "../assets/images/Ocean.png";
 import Date from "../assets/images/Date.png";
 import "../Styles/Home.css";
 
