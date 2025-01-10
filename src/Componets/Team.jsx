@@ -1,5 +1,5 @@
 // import React from "react";
-import "../styles/Team.css"; // Custom styles
+import "../Styles/Team.css"; // Custom styles
 import Mayur from "../assets/Team/Me.jpg"
 import Vidya from "../assets/Team/Vidya-Baviskar.jpg"
 import Kalpesh from "../assets/Team/Kalpesh-borde.jpg"
