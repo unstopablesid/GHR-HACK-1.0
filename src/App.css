@@ -1,0 +1,17 @@
+.App{
+    height: 100%;
+    width: 100%;
+    /* cursor: url('cursor.png'), auto; */
+    
+}
+body{
+    cursor: url('cursor.png'), auto;
+    margin: 0;
+    padding: 0;
+;
+}
+btn:hover{
+    cursor: url('Hover.png'), auto;
+}
+
+  

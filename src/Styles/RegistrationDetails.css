@@ -1,0 +1,32 @@
+
+
+/* Common styles for circles */
+.RegisterDetails{
+    background-color: #014EB6;
+}
+
+
+/* @media screen and (max-width: 768px){
+    .RegisterDetails{
+        display: flex;
+        flex-direction: column;
+    }
+    .Registration{
+        font-size: 1rem;
+    }
+    .Registration h1{
+        font-size: 1.75rem;
+    }
+ .Circle{
+    height: 10rem;
+    width: 10rem;
+}
+.Icons{
+    font-size: 4rem;
+}
+.Icons2{
+    display: none;
+    /* rotate: '180deg'; */
+
+    
+    

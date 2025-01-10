@@ -1,0 +1,70 @@
+
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(to bottom,#0e7490,#00A6D2 );
+  padding: 3.125rem; /* 50px to rem */
+  height: 100vh; /* Full screen height */
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  max-width: 62.5rem; /* 1000px to rem */
+  color: white;
+}
+
+.about-image {
+  max-width: 18.75rem; /* 300px to rem */
+  margin-right: 1.875rem; /* 30px to rem */
+}
+
+.about-text {
+  max-width: 600px;
+  margin-left: 0.2rem;
+}
+.about-text h2 {
+  font-size: 2.25rem; /* 36px to rem */
+  font-weight: bold;
+  margin-bottom: 1.25rem; /* 20px to rem */
+}
+
+.about-text p {
+  font-size: 1.125rem; /* 18px to rem */
+  line-height: 1.8;
+  text-align: justify; /* Added to justify the content */
+}
+
+.about-text strong {
+  font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-image {
+    margin-right: 0;
+    margin-bottom: 1.875rem;
+    display: none; /* 30px to rem */
+  }
+
+  .about-text {
+    /* margin-left: 0; */
+    text-align: center;
+
+  }
+  .Heading{
+    font-size: 2.25rem; 
+    font-weight: bold;
+    margin-bottom: 1.25rem; 
+    text-align: center;
+    color: tomato;
+  }
+}
+

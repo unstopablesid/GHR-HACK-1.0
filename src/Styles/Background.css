@@ -1,0 +1,30 @@
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+.App {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.background-video {
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Send the video behind the content */
+}
+
+.overlay {
+  position: relative;
+  z-index: 1; /* Keep content above the video */
+}

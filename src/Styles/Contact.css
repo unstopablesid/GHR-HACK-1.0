@@ -1,0 +1,27 @@
+
+/* .Cursor2:hover{
+    cursor: url('../Hover.png'), auto; 
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+} */
+.Cursor2 {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.form-checkbox:checked {
+    background-color: #6b46c1;
+}
+.transition-opacity {
+    transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+}
+
+.show {
+    opacity: 1 !important;
+    transform: translateX(0) !important;
+}
+ .Main1{
+    background-color:#011947 ;
+ }

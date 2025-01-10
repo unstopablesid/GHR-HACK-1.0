@@ -1,0 +1,69 @@
+/* Styles/Navbar.css */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ecf0f1; /* Light gray text */
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: #6e35ff; /* Orange hover effect */
+  cursor: url('../Hover.png'),pointer;
+}
+
+.theme-toggle {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ecf0f1;
+  background-color: #5212f3; /* Orange button background */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.theme-toggle a {
+  color: inherit;
+  text-decoration: none;
+}
+#Btn:hover{
+box-shadow: 1px 5px 1px rgba(0, 0, 0, 0.6);
+cursor: url('../Hover.png'),pointer;
+}
+#Btn a:hover{
+  cursor: url('../Hover.png'),pointer;
+}
+@media screen and (max-width: 768px) {
+  .nav-links a {
+  
+    display: none;
+  }
+  .Logo{
+    display: none;
+  }
+  #Btn {
+    transition: background-color 0.3s ease-in-out; ;
+  }
+  .Menu{
+    height: auto;
+  
+  }
+}

@@ -1,0 +1,37 @@
+/* Center the navigation arrows */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #f9a3c7; /* Pink color for arrows */
+  background-color: #000; /* Black background for better contrast */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  top: 50%; /* Vertically center the arrows */
+  transform: translateY(-50%);
+  border: 1px solid #f9a3c7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-prev {
+  left: -30px; /* Move left arrow closer to the slider */
+}
+
+.swiper-button-next {
+  right: -30px; /* Move right arrow closer to the slider */
+}
+
+/* Style the pagination dots */
+.swiper-pagination-bullet {
+  background-color: #fff; /* White dots */
+  width: 12px;
+  height: 12px;
+  opacity: 0.7;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #f9a3c7; /* Pink active dot */
+  opacity: 1;
+  transform: scale(1.2); /* Slightly larger active dot */
+}
