@@ -2,6 +2,9 @@
 
 Welcome to the official website of **GHR Hack 1.0** .This website serves as the central hub for all information related to the event, showcasing event details, schedules, and more.
 
+![](./src/assets/images/GHRHACK.png)
+
+
 ## 🌐 Live Link
 Access the website here: [GHR Hack 1.0](https://ghr-hack-1-0.vercel.app/)
 
