@@ -19,7 +19,7 @@ const Background = () => {
       </video>
 
       {/* Overlay */}
-      <div className="absolute top-0 left-0 w-full h-[110vh] bg-black bg-opacity-40"></div>
+      <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-40"></div>
 
       {/* Navbar */}
       <Navbar />
