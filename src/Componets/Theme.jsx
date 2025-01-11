@@ -1,36 +1,40 @@
-// import "../Styles/HackathonThemes.css"; 
-// import {useNavigate} from "react-router-dom";   
+import Cloud from "../assets/ThemeLogo/Cloud.png";
+import Ai  from "../assets/ThemeLogo/Ai.png";
+import Blockchain from "../assets/ThemeLogo/Blockchain.png";
+import Helthcare from "../assets/ThemeLogo/Healthcarre.png";
+import Iot from "../assets/ThemeLogo/IOT.png";
+import Ml from "../assets/ThemeLogo/machineLearning.png";
 
 const themes = [
     {
         icon: "cloud-computing",
         title: "Cloud Computing",
-        image: "../src/assets/ThemeLogo/Cloud.png", 
+        image: Cloud, 
     },
     {
         icon: "education",
         title: "Blockchain",
-        image: "../src/assets/ThemeLogo/Blockchain.png",
+        image: Blockchain,
     },
     {
         icon: "ai",
         title: "Artificial Intelligence",
-        image: "../src/assets/ThemeLogo/Ai.png",
+        image: Ai,
     },
     {
         icon: "iot",
         title: "IOT",
-        image: "../src/assets/ThemeLogo/IOT.png",
+        image: Iot,
     },
     {
         icon: "healthcare",
         title: "Healthcare",
-        image: "../src/assets/ThemeLogo/HealthCarre.png",
+        image:  Helthcare,
     },
     {
         icon: "machine-learning",
         title: "Machine Learning",
-        image: "../src/assets/ThemeLogo/machineLearning.png",
+        image: Ml,
     },
   
 ];
