@@ -1,44 +1,91 @@
+/* Base styles for the Event Highlights section */
 .highlights-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(to bottom,#00A6D2, #014EB6 );
-    padding: 50px;
-    height: 100vh; /* Full screen height */
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #00A6D2, #0e7490);
+  padding: 3.125rem; /* 50px to rem */
+  height: 100vh; /* Full screen height */
+  perspective: 1200px; /* Add depth for 3D effect */
+  overflow: hidden;
+}
+
+.highlights-content {
+  display: flex;
+  align-items: center;
+  max-width: 62.5rem; /* 1000px to rem */
+  color: white;
+  transform-style: preserve-3d; /* Enables 3D transformations */
+  transition: transform 1s ease-out;
+}
+
+.highlights-text {
+  max-width: 600px;
+  margin-right: 1.875rem; /* Added margin on right side */
+  opacity: 0; /* Initially invisible */
+  transform: translateX(-100px); /* Start position for smooth entrance */
+  transition: transform 1s ease-out, opacity 1s ease-out;
+}
+
+/* Heading style */
+.highlights-text h2 {
+  font-size: 2.25rem; /* 36px to rem */
+  font-weight: bold;
+  margin-bottom: 1.25rem; /* 20px to rem */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Paragraph text style */
+.highlights-text ul {
+  font-size: 1.125rem; /* 18px to rem */
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.highlights-text li {
+  margin-bottom: 1rem;
+}
+
+/* Strong text for emphasis */
+.highlights-text strong {
+  font-weight: bold;
+}
+
+.highlights-image {
+  max-width: 18.75rem; /* 300px to rem */
+  transition: transform 0.6s ease-out;
+  transform-origin: center center;
+  margin-left: 1.875rem; /* Added margin on left side */
+}
+
+/* Mobile styling */
+@media screen and (max-width: 768px) {
   .highlights-content {
-    position: relative;
-    color: white;
-    max-width: 800px;
+    flex-direction: column;
+    text-align: center;
+    transform: translateZ(0); /* Ensure proper 3D rendering */
   }
-  
-  h2 {
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 20px;
+
+  .highlights-text {
+    text-align: center;
+    opacity: 1; /* Ensure the text is fully visible */
+    transform: translateX(0); /* Remove the initial offset for smooth entry */
+    transition: none; /* Disable the animation on mobile */
   }
-  
-  ul {
-    list-style-type: disc;
-    padding-left: 20px;
-    line-height: 2;
-  }
-  
-  li {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  li strong {
-    font-weight: bold;
-  }
-  
+
   .highlights-image {
-    position: absolute;
-    bottom: -50px;
-    right: -50px;
-    max-width: 200px;
-    opacity: 0.8;
+    margin: 1.25rem 0;
+    max-width: 250px; /* Adjust the image size on mobile */
   }
-  
+
+  .Heading {
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    color: tomato;
+  }
+}
