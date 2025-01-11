@@ -81,7 +81,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 For any inquiries or support, please contact:
 - **Email:** Mrsidharth2004@gmail.com
-- **GitHub:** [your-username](https://github.com/unstopablesid)
+- **GitHub:** [Unstopablesid](https://github.com/unstopablesid)
 - **Website:** [GHR Hack 1.0](https://ghr-hack-1-0.vercel.app/)
 
 ---
