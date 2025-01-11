@@ -78,9 +78,12 @@
       flex-wrap: wrap;
       justify-content: space-between;
       gap: 1rem;
-      padding: 2rem 0.5rem;
+      padding: 1rem 0.5rem;
     }
-
+    
+.team-section{
+  padding: 0.25rem 0.25rem;
+}
     .team-card {
       flex: 1 1 calc(33.333% - 1rem);
       max-width: calc(33.333% - 1rem);
@@ -89,7 +92,11 @@
       width: 10rem;
       height: 8rem;
     }
-      
+    
+    .LinkedIn{
+      width: 1rem;
+      height: 1rem;
+    }
   .team-name {
     font-size: 0.75rem;
   }

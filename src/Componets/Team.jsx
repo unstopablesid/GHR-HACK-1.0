@@ -42,7 +42,7 @@ const Team = () => {
                                 rel="noopener noreferrer"
                                 className="linkedin-link"
                             >
-                                <img src={Logo} alt="" className="w-6 items-center"  />
+                                <img src={Logo} alt="" className="w-6 items-center LinkedIn"  />
                             </a>
                         )}
                     </div>
