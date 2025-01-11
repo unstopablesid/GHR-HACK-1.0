@@ -27,7 +27,7 @@ const Background = () => {
       {/* Home Component */}
       <div className="relative z-10">
         <Home />
-        <Buttons />
+        
       </div>
     </div>
   );

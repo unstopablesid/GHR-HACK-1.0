@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../Styles/Buttons.css"; // Add the CSS styles
 
 const Buttons = () => {
