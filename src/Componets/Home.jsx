@@ -13,10 +13,6 @@ const Home = () => {
         <img src={Date} alt="Date" className="Date w-96 h-16 items-center justify-center" /> 
         </div>
         <Buttons />
-        {/* <div className="flex items-center justify-center mt-24"> 
-        <img src={ocean} alt="Banner" className="w-96 items-center justify-center" /> 
-        </div> */}
-      
     </div>
   )
 }

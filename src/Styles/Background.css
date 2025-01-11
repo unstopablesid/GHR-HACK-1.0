@@ -4,25 +4,25 @@
 body, html {
   margin: 0;
   padding: 0;
-  height: 100%;
-  /* overflow: hidden; */
+  /* height: 100%; */
+  overflow: hidden;
 }
 
 .App {
-  /* position: relative;/ */
+  position: relative;
   /* height: 100vh; */
   /* width: 100%; */
 }
 
-.background-video {
-  /* position: absolute; */
+ /* .background-video {
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -1; /* Send the video behind the content */
-}
+  z-index: -1; /* Send the video behind the content 
+}  */
 
 .overlay {
   position: relative;

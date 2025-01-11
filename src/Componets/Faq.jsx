@@ -8,10 +8,9 @@ const FAQ = () => {
     { question: "How big a team can be ?", answer: "Teams can have up to 6 members, but you can also participate solo." },
     { question: "Who all can participate?", answer: "Anyone with a passion for coding and innovation can participate." },
     { question: "Do I need to have any specific qualifications to be a participant for the hackathon?", answer: "No specific qualifications are required. Just enthusiasm to create something awesome!" },
-    { question: "Is there any registration fees for participation?", answer: "No, participation is completely free." },
+    { question: "Is there any registration fees?", answer: "No,Registration is completely free" },
     { question: "Can I start working on Project before the event ?", answer: "No, all Coading should be started during the hackathon timeframe." },
     { question: "Does GHR-HACK provide Internet facility during hackathon?", answer: "Yes, we provide a high-speed internet connection for all participants." },
-    { question: "I am below 18 or a high school student. Can I attend the hackathon?", answer: "Yes, high school students can attend with parental consent." },
   ];
 
   const toggleFAQ = (index) => {

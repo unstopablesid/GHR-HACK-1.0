@@ -16,11 +16,8 @@ import HackathonThemes from './Componets/Theme'
 function App() {
   return (
     <div className='App' >
-    {/* <Navbar  />
-    <Home  /> */}
     <Background />
     <AboutSection />
-    {/* <InfiniteSlider /> */}
     <EventHighlights />
     <HackathonThemes />
     <PrizeCards />

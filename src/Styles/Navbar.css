@@ -4,7 +4,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
 }
 
 
@@ -18,7 +18,7 @@ nav {
 .nav-links a {
   text-decoration: none;
   color: #ecf0f1; /* Light gray text */
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
