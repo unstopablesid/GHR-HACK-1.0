@@ -7,6 +7,11 @@ import Iot from "../assets/ThemeLogo/IOT.png";
 import Helthcare from "../assets/ThemeLogo/Healthcare.png";
 import Ml from "../assets/ThemeLogo/machineLearning.png";
 import Cloud from "../assets/ThemeLogo/Cloud.png";
+import Agritech from "../assets/ThemeLogo/Agritech.png";
+import Social from "../assets/ThemeLogo/social.png";
+import Cyber from "../assets/ThemeLogo/cyber-security.png";
+
+
     
 
 
@@ -39,17 +44,17 @@ import Cloud from "../assets/ThemeLogo/Cloud.png";
     {
         icon: "machine-learning",
         title: "Cybersecurity",
-        image: Ml,
+        image: Cyber,
+    },
+    {
+        icon: "Cyber",
+        title: "Agritech",
+        image: Agritech,
     },
     {
         icon: "machine-learning",
-        title: "Cybersecurity",
-        image: Ml,
-    },
-    {
-        icon: "machine-learning",
-        title: "Cybersecurity",
-        image: Ml,
+        title: "Social Impact Tech",
+        image:Social,
     },
     ];
 
@@ -100,12 +105,12 @@ import Cloud from "../assets/ThemeLogo/Cloud.png";
     }, []);
 
     return (
-        <section id="Theme" className="font-[Ghr4] bg-[#014EB6] text-white py-16">
-        <div className="container mx-auto px-4">
+        <section id="Theme" className="font-[Ghr4] bg-[#014EB6] text-white py-16  ">
+        <div className="container mx-auto px-4 ">
             <h2 className="font-[Ghr4] text-5xl mb-12 text-center text-white">
             Hackathon Themes
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 gap-8 items-cente justify-center">
             {themes.map((theme, index) => (
                 <div
                 key={index}

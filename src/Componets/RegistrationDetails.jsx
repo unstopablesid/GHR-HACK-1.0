@@ -69,7 +69,7 @@ const RegistrationDetails = () => {
                             <i className="fas fa-qrcode text-black text-9xl"></i>
                         </div>
                         <h2 className="text-xl font-bold text-black">How to Register</h2>
-                        
+                        <p>Scan the QR code</p>
                     </div>
                     <div className="text-8xl text-white">
                         <i className="fas fa-chevron-right"></i>
