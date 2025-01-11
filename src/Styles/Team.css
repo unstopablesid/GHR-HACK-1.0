@@ -23,7 +23,7 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    padding: 50px;
+    padding: 5rem 10rem ;
   }
   
   .team-card {
@@ -71,3 +71,30 @@
     height: 20px;
   }
   
+
+  @media screen and (max-width: 768px) {
+    .team-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 2rem 0.5rem;
+    }
+
+    .team-card {
+      flex: 1 1 calc(33.333% - 1rem);
+      max-width: calc(33.333% - 1rem);
+    }
+    .team-photo{
+      width: 10rem;
+      height: 8rem;
+    }
+      
+  .team-name {
+    font-size: 0.75rem;
+  }
+  .team-role {
+    font-size: 0.5rem;
+  }
+    
+  }
