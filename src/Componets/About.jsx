@@ -68,14 +68,8 @@ const AboutSection = () => {
         <div ref={textRef} className="about-text ">
           <h2 className="text-center text-white Heading">ABOUT</h2>
           <p>
-            Get ready to witness <strong>GHRhack 1.0</strong>, our college's
-            flagship event that brings together the brightest minds from across
-            the nation for an exhilarating innovation marathon. This is your
-            chance to be part of something extraordinary, where creativity meets
-            technology, and ideas transform into impactful solutions. Let's
-            make <strong>GHRhack 1.0</strong> an unforgettable milestone of
-            innovation and teamwork! Join the organizing team and help drive
-            this remarkable event to success.
+          GHRHack 1.0 is the flagship hackathon of G H Raisoni College of Engineering & Management, Jalgaon, aimed at fostering innovation, collaboration, and creativity among tech enthusiasts. Scheduled for 8th and 9th March 2025, this 28-hour offline hackathon provides a platform for students, developers, and innovators from across the country to showcase their technical prowess and problem-solving abilities.
+          With the theme "Code the Unexplored", GHRHack 1.0 challenges participants to tackle real-world problems, explore cutting-edge technologies, and push the boundaries of innovation. The event promises to be a hub for groundbreaking ideas, networking opportunities, and knowledge exchange, all within an environment of healthy competition.
           </p>
         </div>
       </div>

@@ -13,32 +13,42 @@ import Cloud from "../assets/ThemeLogo/Cloud.png";
     const themes = [
     {
         icon: "cloud-computing",
-        title: "Cloud Computing",
+        title: "EdTech Evolution",
         image:Cloud, 
     },
     {
         icon: "education",
-        title: "Blockchain",
+        title: "Blockchain Revolution",
         image: Blockchain,
     },
     {
         icon: "ai",
-        title: "Artificial Intelligence",
+        title: "AI and Machine Learning",
         image: Ai,
     },
     {
         icon: "iot",
-        title: "IOT",
+        title: "AR/VR Realities",
         image: Iot,
     },
     {
         icon: "healthcare",
-        title: "Healthcare",
+        title: "HealthTech Innovations",
         image:  Helthcare,
     },
     {
         icon: "machine-learning",
-        title: "Machine Learning",
+        title: "Cybersecurity",
+        image: Ml,
+    },
+    {
+        icon: "machine-learning",
+        title: "Cybersecurity",
+        image: Ml,
+    },
+    {
+        icon: "machine-learning",
+        title: "Cybersecurity",
         image: Ml,
     },
     ];
