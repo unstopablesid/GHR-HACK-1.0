@@ -9,18 +9,19 @@ import Bhavesh from "../assets/Team/Bhavesh-kanaiya.jpg"
 import Shreyas from "../assets/Team/Shreyash-badgujar.jpg"
 import Rohit from "../assets/Team/Rohit-pitrubhakt.jpg"
 import Kartik from "../assets/Team/kartik-Chaudhari.jpg"
+import Logo from "../assets/Logo/Linked.png"
 
 
 // Team data
 const teamMembers = [
-    { name: "Kartik Chaudhari", role: "Overall Coordinator", photo: Kartik },
-    { name: "Vidya Baviskar", role: "Overall Coordinator", photo: Vidya },
-    { name: "Kalpesh Borde", role: "Overall Coordinator", photo: Kalpesh, linkedin: "https://www.linkedin.com/in/kalpesh-borde-0b1b3b1b7" },
-    { name: "Mrunal Mahajan", role: "Operations Lead", photo: Mrunal },
-    { name: "Mayur Nikumbh", role: "Technical Lead", photo: Mayur },
-    { name: "Kunal Badgujar", role: "Logistics Lead", photo: Kunal },
-    { name: "Bhavesh Kanhaiya", role: "Marketing Lead", photo: Bhavesh },
-    { name: "Shreyas Badgujar", role: "Finance Lead", photo: Shreyas },
+    { name: "Kartik Chaudhari", role: "Overall Coordinator", photo: Kartik , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-0b1b3b1b7" },
+    { name: "Vidya Baviskar", role: "Overall Coordinator", photo: Vidya ,Logo: Logo, linkedin: "https://www.linkedin.com/in/vidya-baviskar-0b1b3b1b7" },
+    { name: "Kalpesh Borde", role: "Overall Coordinator", photo: Kalpesh, linkedin: "https://www.linkedin.com/in/kalpesh-borde-0b1b3b1b7",Logo: Logo  },
+    { name: "Mrunal Mahajan", role: "Operations Lead", photo: Mrunal,Logo: Logo ,linkedin: "https://www.linkedin.com/in/mrunal-mahajan-0b1b3b1b7" },
+    { name: "Mayur Nikumbh", role: "Technical Lead", photo: Mayur ,Logo: Logo ,linkedin: "https://www.linkedin.com/in/mayur-nikumbh"},
+    { name: "Kunal Badgujar", role: "Logistics Lead", photo: Kunal ,Logo: Logo ,linkedin: "https://www.linkedin.com/in/kunal-badgujar-0b1b3b1b7" },
+    { name: "Bhavesh Kanhaiya", role: "Marketing Lead", photo: Bhavesh ,Logo: Logo ,linkedin: "https://www.linkedin.com/in/bhavesh-kanhaiya-0b1b3b1b7" },
+    { name: "Shreyas Badgujar", role: "Finance Lead", photo: Shreyas ,Logo: Logo ,linkedin: "https://www.linkedin.com/in/shreyas-badgujar-0b1b3b1b7" },
     { name: "Rohit Pitrubhakt", role: "Finance Lead", photo: Rohit, linkedin: "https://www.linkedin.com/in/rohit-pitrubhakt-5a2737257" },
 ];
 
@@ -41,7 +42,7 @@ const Team = () => {
                                 rel="noopener noreferrer"
                                 className="linkedin-link"
                             >
-                                <i className="fab fa-linkedin text-[#0077b5] text-3xl hover:text-[#005582] transition-colors cursor-pointer"></i>
+                                <img src={Logo} alt="" className="w-6 items-center"  />
                             </a>
                         )}
                     </div>

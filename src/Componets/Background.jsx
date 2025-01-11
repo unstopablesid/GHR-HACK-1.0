@@ -7,14 +7,14 @@ const Background = () => {
   return (
     <div className="App relative">
       {/* Video Background */}
-      <video
-        autoPlay
-        loop
-        muted
-        className="absolute top-0 left-0 w-full h-[110vh] object-cover"
-      >
-        <source src={VideoBG} type="video/mp4" />
-        {/* Fallback message */}
+        <video
+          autoPlay
+          loop
+          muted
+          className="absolute top-0 left-0 w-full h-full object-cover"
+        >
+          <source src={VideoBG} type="video/mp4" />
+          {/* Fallback message */}
         Your browser does not support the video tag.
       </video>
 

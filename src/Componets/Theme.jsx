@@ -1,11 +1,20 @@
-// import "../Styles/HackathonThemes.css"; 
-// import {useNavigate} from "react-router-dom";   
+import React, { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Blockchain from "../assets/ThemeLogo/Blockchain.png";
+import Ai from "../assets/ThemeLogo/Ai.png";
+import Iot from "../assets/ThemeLogo/Iot.png";
+import Helthcare from "../assets/ThemeLogo/Healthcare.png";
+import Ml from "../assets/ThemeLogo/machineLearning.png";
+import Cloud from "../assets/ThemeLogo/Cloud.png";
+    
+
 
     const themes = [
     {
         icon: "cloud-computing",
         title: "Cloud Computing",
-        image: "../src/assets/ThemeLogo/Cloud.png", 
+        image:Cloud, 
     },
     {
         icon: "education",
@@ -46,18 +55,18 @@
 
         let animationProps = {
             opacity: 0,
-            y: 100,
+            y: 60,
         };
 
         if (index === 0) {
             // First card: Coming from the left
-            animationProps.x = -200;
+            animationProps.x = -250;
         } else if (index === 1) {
             // Second card: Coming from the top
-            animationProps.y = -200;
+            animationProps.y = -250;
         } else if (index === 2) {
             // Third card: Coming from the right
-            animationProps.x = 200;
+            animationProps.x = 250;
         }
 
         // Animation for each card
@@ -67,12 +76,13 @@
             {
             opacity: 1,
             x: 0,
-            y: 50,
+            y: 0,
             scrollTrigger: {
                 trigger: card,
-                start: "top 100%", // Start when top of the card is at 80% of the viewport
+                start: "top 80%", // Start when top of the card is at 80% of the viewport
                 end: "bottom 20%",
-                scrub: true, // Smooth animation on scroll
+                scrub: true,
+                 // Smooth animation on scroll
             },
             }
         );
@@ -90,12 +100,12 @@
                 <div
                 key={index}
                 ref={(el) => (cardRefs.current[index] = el)} // Store card reference
-                className="theme-card h-72 bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 rounded-lg p-6 flex flex-col items-center shadow-lg transition-transform transform hover:scale-105"
+                className="theme-card h-56 bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 rounded-lg p-6 flex flex-col items-center shadow-lg transition-transform transform hover:scale-105"
                 >
                 <img
                     src={theme.image}
                     alt={theme.title}
-                    className="w-24 h-24 object-contain mb-4"
+                    className="w-52 h-24 object-contain mb-4"
                 />
                 <h3 className="text-xl font-semibold text-center">
                     {theme.title}

@@ -58,14 +58,14 @@ const AboutSection = () => {
 
   return (
     <div ref={aboutRef} className="about-container font-[Ghr4]">
-      <div className="pt-10 about-content">
+      <div className=" about-content">
         <img
           ref={imageRef}
           src={turtleImage}
           alt="Turtle"
           className="about-image z-10"
         />
-        <div ref={textRef} className="about-text z-20">
+        <div ref={textRef} className="about-text ">
           <h2 className="text-center text-white Heading">ABOUT</h2>
           <p>
             Get ready to witness <strong>GHRhack 1.0</strong>, our college's
