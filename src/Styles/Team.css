@@ -87,6 +87,7 @@
     .team-card {
       flex: 1 1 calc(33.333% - 1rem);
       max-width: calc(33.333% - 1rem);
+      padding: 0.25rem;
     }
     .team-photo{
       width: 10rem;
