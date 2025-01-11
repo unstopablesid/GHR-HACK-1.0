@@ -23,26 +23,26 @@
   
   /* Devfolio Button */
   .devfolio-btn {
-    background-color: rgba(0, 255, 255, 0.2);
-    color: #00ffff;
-    border: 2px solid #00ffff;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    border: 2px solid #000000ca;
   }
   
   .devfolio-btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 5px 15px rgba(0, 255, 255, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 130, 108, 0.44);
   }
   
   /* Discord Button */
   .discord-btn {
-    background-color: rgba(0, 255, 255, 0.2);
-    color: #00ffff;
-    border: 2px solid #00ffff;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #ffffff;
+    border: 2px solid #000000ca;
   }
   
   .discord-btn:hover {
     transform: scale(1.05);
-    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 130, 108, 0.44);
   }
   
   /* Icon Styles */
