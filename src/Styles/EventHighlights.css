@@ -64,8 +64,8 @@
 /* Mobile styling */
 @media screen and (max-width: 768px) {
   .highlights-content {
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     flex-direction: column;
     /* padding-bottom: 25rem; */
     text-align: center;
@@ -97,18 +97,16 @@
     text-align: center;
   }
   .highlights-text h2{
-
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-family: 'Ghr4';
-    /* color: blue; */
-    transform: none; /* 30px to rem */
+    transform: none;
     transition: none;
   }
   .highlights-text ul li {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
   }
 
   .highlights-image {
-    display: none; /* Ensure images are hidden on smaller screens */
+    display: none; 
   }
 }
