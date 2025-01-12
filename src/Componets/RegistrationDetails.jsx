@@ -60,9 +60,9 @@ const RegistrationDetails = () => {
     }, []);
 
     return (
-        <div className=" bg-[#014EB6] flex justify-center items-center min-h-screen registration">
+        <div className=" bg-[#014EB6] flex justify-center items-center min-h-screen registration font-[Ghr4]">
             <div className="text-center text-white py-10">
-                <h1 className="text-4xl font-bold mb-10">REGISTRATION DETAILS</h1>
+                <h1 className="text-4xl font-bold mb-10 ">REGISTRATION DETAILS</h1>
                 <div className="animated-circle-container flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-10">
                     <div className="flex flex-col items-center animated-circle left-circle">
                         <div className="bg-white rounded-full p-8 mb-4 w-64 h-64 flex justify-center items-center mt-10">

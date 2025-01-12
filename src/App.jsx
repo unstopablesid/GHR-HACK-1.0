@@ -30,7 +30,6 @@ function App() {
     <FAQ />
     <Contact />
     <Footer />
-    {/* <ProblemStatements /> */}
     </div>
   )
 }
