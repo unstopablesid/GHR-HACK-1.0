@@ -57,7 +57,7 @@ cursor: url('../Hover.png'),pointer;
     display: none;
   }
   .Logo{
-    display: none;
+    /* display: none; */
   }
   #Btn {
     transition: background-color 0.3s ease-in-out; ;
