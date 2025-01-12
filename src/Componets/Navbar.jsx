@@ -1,5 +1,6 @@
 import "../Styles/Navbar.css"; // Optional for custom styling
 import Logo from "../assets/images/GHR.png"; // Optional for custom styling
+import RaisoniBanner from "../assets/Logo/Raisoni banner.png"
 
 const Navbar = () => {
   return (
@@ -17,13 +18,6 @@ const Navbar = () => {
         <li><a href="#Team" className="hover:text-gray-300">FAQ</a></li>
         <li><a href="#Contact" className="hover:text-gray-300">Contact</a></li>
       </ul>
-      {/* <button
-        id="Btn"
-        className="hidden md:block bg-white text-black font-[Ghr4] rounded-md px-6 py-2.5 hover:bg-gray-300"
-      >
-        <a href="#">Register</a>
-      </button> */}
-
       {/* Hamburger Menu for Small Screens */}
       <div className="md:hidden pr-5 Menu">
         <button
