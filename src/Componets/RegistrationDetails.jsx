@@ -10,27 +10,11 @@ const RegistrationDetails = () => {
       
         const timeline = gsap.timeline({
             scrollTrigger: {
-                trigger: ".animated-circle-container", // Parent container
-                start: "top 50%", // Trigger when the top of the container reaches the center of the viewport
-                end: "bottom 50%", // Ends when the bottom of the container reaches the center of the viewport
-                toggleActions: "restart reverse restart reverse", // Ensures reset on scroll up and down
-                markers: false, // Set to true for debugging
-                onEnter: () => {
-                    // Start animation when the container enters the viewport
-                    timeline.play();
-                },
-                onLeave: () => {
-                    // Reset the animation when leaving the viewport
-                    timeline.reverse();
-                },
-                onEnterBack: () => {
-                    // Start animation again when scrolling up
-                    timeline.play();
-                },
-                onLeaveBack: () => {
-                    // Reset the animation when scrolling back up
-                    timeline.reverse();
-                },
+            trigger: ".animated-circle-container",
+            start: "top 75%", 
+            end: "bottom 25%", 
+            toggleActions: "play none none reverse", 
+            markers: false,
             },
         });
 
