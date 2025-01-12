@@ -10,6 +10,7 @@ import Shreyas from "../assets/Team/Shreyash-badgujar.jpg"
 import Rohit from "../assets/Team/Rohit-pitrubhakt.jpg"
 import Kartik from "../assets/Team/kartik-Chaudhari.jpg"
 import Logo from "../assets/Logo/Linked.png"
+import Jain from "../assets/Team/Neeraj.jpg"
 
 
 // Team data
@@ -23,6 +24,7 @@ const teamMembers = [
     { name: "Bhavesh Kanhaiya", role: "Marketing Lead", photo: Bhavesh ,Logo: Logo ,linkedin: "https://www.linkedin.com/in/bhavesh-kanhaiya-0b1b3b1b7" },
     { name: "Shreyas Badgujar", role: "Finance Lead", photo: Shreyas ,Logo: Logo ,linkedin: "https://www.linkedin.com/in/shreyas-badgujar-0b1b3b1b7" },
     { name: "Rohit Pitrubhakt", role: "Finance Lead", photo: Rohit, linkedin: "https://www.linkedin.com/in/rohit-pitrubhakt-5a2737257" },
+    { name: "Neeraj Rakhicha", role: "Design Lead", photo: Jain, linkedin: "https://www.linkedin.com/in/rohit-pitrubhakt-5a2737257" },
 ];
 
 const Team = () => {
