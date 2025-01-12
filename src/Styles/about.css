@@ -59,7 +59,7 @@
 /* Mobile styling */
 @media screen and (max-width: 768px) {
   .about-container {
-    padding: 3rem 1rem; /* 20px to rem */
+    padding: 2rem 1rem; /* 20px to rem */
     height: auto; /* Adjust height for smaller screens */
     transform: none; /* Remove 3D transformation */
     transition: none;
