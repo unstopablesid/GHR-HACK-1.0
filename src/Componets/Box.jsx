@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import TridentGold from "../assets/Prizes/Trident-Gold.png"; // Import image paths
 
 const prizes = [
