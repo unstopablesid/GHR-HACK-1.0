@@ -14,15 +14,15 @@ const Sponsors = () => {
         <div className="space-y-12 text-center font-[Ghr4]">
           <div className="text-center"></div>
             <h3 className="text-3xl font-semibold mb-4">Gold Sponsor</h3>
-            <img src={Dev} alt="Vultr" className="mx-auto w-[20rem] h-[9.5rem] rounded-xl" />
+            <img src={Dev} alt="Vultr" className="mx-auto w-[20rem] rounded-xl" />
           </div>
         </div>
 
         <div className="mt-16 align-center justify-center text-center font-[Ghr4]">
           <h3 className="text-3xl font-semibold text-center mb-6">Silver Sponsors</h3>
-          <div className="align-center justify-center flex md:grid-cols-2 gap-2">
-            <img src={ETH} alt="Eth-india" className="mx-5- w-[20rem] rounded-xl" />
-            <img src={Polygon} alt="Polygon" className="mx-5 w-[20rem] rounded-xl" />
+          <div className="grid md:grid-cols-2 lg:grid-cols-1 gap-4  md:px-10">
+            <img src={ETH} alt="Eth-india" className=" mx-auto w-[20rem] rounded-xl " />
+            <img src={Polygon} alt="Polygon" className="mx-auto w-[20rem] rounded-xl" />
           </div>
         </div>
       </div>

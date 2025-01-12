@@ -18,7 +18,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="faq  bg-[#011947]">
+    <div id="FAQ" className="faq  bg-[#011947]">
     <div className="faq-container bg-[#011947]">
        <h1 className="text-center font-[Ghr4] uppercase leading-[1] text-4xl text-white">FAQ</h1>
       <ul className="faq-list cursor2">

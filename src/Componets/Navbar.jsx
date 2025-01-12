@@ -46,19 +46,13 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <ul className="mobile-menu hidden flex-col absolute top-20 left-0 w-full bg-black bg-opacity-45 text-white font-[Ghr4] text-sm space-y-4 px-4 py-4 z-10">
-        <li><a href="#home" className="hover:text-gray-300">Home</a></li>
-        <li><a href="#themes" className="hover:text-gray-300">Themes</a></li>
-        <li><a href="#contact" className="hover:text-gray-300">Contact</a></li>
-        <li><a href="#team" className="hover:text-gray-300">Team</a></li>
-        <li>
-          <button
-            id="Btn"
-            className="bg-white text-black font-[Ghr4] rounded-md py-2 w-full"
-          >
-            <a href="#">Register</a>
-          </button>
-        </li>
+      <ul className="mobile-menu align-center justify-center text-center hidden flex-col absolute top-[4.4rem] left-0 w-full bg-black bg-opacity-50 text-white font-[Ghr4] text-sm space-y-4 px-4 py-4 z-10">
+      <li><a href="#home" className="hover:text-gray-300">Home</a></li>
+        <li><a href="#Theme" className="hover:text-gray-300">Themes</a></li>
+        <li><a href="#Schedule" className="hover:text-gray-300">Schedule</a></li>
+        <li><a href="#Team" className="hover:text-gray-300">Team</a></li>
+        <li><a href="#FAQ" className="hover:text-gray-300">FAQ</a></li>
+        <li><a href="#Contact" className="hover:text-gray-300">Contact</a></li>
       </ul>
     </nav>
   );

@@ -89,3 +89,18 @@
     color: tomato;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .highlights-text h2 {
+    font-size: 1.875rem; /* 30px to rem */
+  }
+
+  .highlights-text ul {
+    font-size: 1rem; /* 16px to rem */
+  }
+
+  .highlights-image {
+    max-width: 200px; /* Adjust the image size on smaller screens */
+  }
+  
+}

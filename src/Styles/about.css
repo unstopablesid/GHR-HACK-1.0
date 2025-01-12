@@ -58,30 +58,5 @@
 
 /* Mobile styling */
 @media screen and (max-width: 768px) {
-  .about-content {
-    flex-direction: column;
-    text-align: center;
-    transform: translateZ(0); /* Ensure proper 3D rendering */
-  }
 
-  .about-image {
-    margin-right: 0;
-    margin-bottom: 0.875rem;
-    display: none; /* Hide image on smaller screens */
-  }
-
-  .about-text {
-    text-align: center;
-    opacity: 1 !important; /* Force the text to be fully visible */
-    transform: translateX(0) !important; /* Make sure it has no initial offset */
-    transition: none !important; /* Disable the animation on mobile */
-  }
-
-  .Heading {
-    font-size: 2.25rem;
-    font-weight: bold;
-    margin-bottom: 1.25rem;
-    text-align: center;
-    color: tomato;
-  }
 }

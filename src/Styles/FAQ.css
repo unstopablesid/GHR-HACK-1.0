@@ -55,4 +55,22 @@
   .open .faq-question {
     color:#4800ff;;
   }
+
+  @media screen and (max-width: 600px) {
+    .faq-container {
+      padding: 50px;
+    }
   
+    .faq-container h1 {
+      font-size: 24px;
+    }
+  
+    .faq-question {
+      font-size: 10px;
+    }
+  
+    .faq-answer {
+      font-size: 12px;
+    }
+    
+  }

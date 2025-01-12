@@ -25,3 +25,22 @@
  .Main1{
     background-color:#011947 ;
  }
+
+@media  screen and (max-width: 768px) {
+.Main1{
+    font-size: 0.75rem
+}
+.Main1 p {
+    font-size: 1.25rem;
+}
+
+.Main1 h1{
+    font-size: 2.5rem;
+}
+.Main1 {
+    /* font-size: 2rem;
+     */
+     padding: 1.5rem 2rem;
+
+}
+}
