@@ -13,7 +13,7 @@ const Buttons = () => {
     script.onload = () => {
       if (window.Devfolio) {
         window.Devfolio.Button.init({
-          key: "your-devfolio-public-key", // Replace with your Devfolio public key
+          key: "https://ghrhack.devfolio.co/", 
           container: ".apply-button",
         });
       }
