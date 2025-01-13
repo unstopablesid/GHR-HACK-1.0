@@ -1,5 +1,5 @@
 
-import Dev from '../assets/Sponsers/Devfolio.png';
+import Dev from '../assets/Sponsers/DEVFOLIO.png';
 import Polygon from '../assets/Sponsers/polygon.png';
 import ETH from '../assets/Sponsers/ETHindia.png';
 
