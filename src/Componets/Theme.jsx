@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Blockchain from "../assets/ThemeLogo/Blockchain.png";
 import Ai from "../assets/ThemeLogo/Ai.png";
-import Iot from "../assets/ThemeLogo/IOT.png";
+import Iot from "../assets/ThemeLogo/AR.png";
 import Helthcare from "../assets/ThemeLogo/Healthcare.png";
 import Ml from "../assets/ThemeLogo/machineLearning.png";
 import Cloud from "../assets/ThemeLogo/Cloud.png";

@@ -5,12 +5,14 @@ const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
-    { question: "How big a team can be ?", answer: "Teams can have up to 6 members, but you can also participate solo." },
-    { question: "Who all can participate?", answer: "Anyone with a passion for coding and innovation can participate." },
-    { question: "Do I need to have any specific qualifications to be a participant for the hackathon?", answer: "No specific qualifications are required. Just enthusiasm to create something awesome!" },
+    { question: "How do i register for the hackthon", answer: "Click on any registration now button on the website" },
+    { question: "What is the participation fee", answer: "Just some enthusiast and open mind are enough me, dont charge any fee" },
+    { question: "What if i dont have a team or idea ?", answer: "Well have a team formation and ideation events to help you find a team." },
     { question: "Is there any registration fees?", answer: "No,Registration is completely free" },
-    { question: "Can I start working on Project before the event ?", answer: "No, all Coading should be started during the hackathon timeframe." },
+    { question: "Who can participate ?", answer: "Anyone is Welcome to apply-student or working proffesional , Wether you want to inovate or just enjoy a fun weekend you are welcome" },
     { question: "Does GHR-HACK provide Internet facility during hackathon?", answer: "Yes, we provide a high-speed internet connection for all participants." },
+    { question: "What is the ideal Team size", answer: "Team should be consist of 2-4 members" },
+    { question: "What is the code of conduct", answer: "To ensure a positive experience for all participants we follow the SIH code of conduct" },
   ];
 
   const toggleFAQ = (index) => {
