@@ -31,29 +31,38 @@ const teamMembers = [
 
 const Team = () => {
     return (
-        <section id="Team" className="team-section Team">
-            <h2 className="team-title font-[Ghr4] text-white">Meet Our Team</h2>
-            <div className="team-container">
-                {teamMembers.map((member, index) => (
-                    <div key={index} className="team-card">
-                        <img src={member.photo} alt={member.name} className="team-photo" />
-                        <h3 className="team-name text-black font-[Ghr4]">{member.name}</h3>
-                        <p className="team-role">{member.role}</p>
-                        {member.linkedin && (
-                            <a
-                                href={member.linkedin}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="linkedin-link"
-                            >
-                                <img src={Logo} alt="" className="w-6 items-center LinkedIn"  />
-                            </a>
-                        )}
-                    </div>
-                ))}
-            </div>
-        </section>
-    );
+        <section id="Team" className="team-section bg-gray-100 py-10">
+        <h2 className="team-title text-4xl font-bold text-center mb-8 text-black">Meet Our Team</h2>
+        <div className="team-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 px-4">
+            {teamMembers.map((member, index) => (
+                <div key={index} className="team-card bg-white rounded-lg shadow-lg p-4 text-center">
+                    <img
+                        src={member.photo}
+                        alt={`${member.name}`}
+                        className="team-photo w-24 h-24 mx-auto rounded-full object-cover mb-4"
+                    />
+                    <h3 className="team-name text-xl font-semibold text-gray-800">{member.name}</h3>
+                    <p className="team-role text-sm text-gray-600">{member.role}</p>
+                    {member.linkedin && (
+                        <a
+                            href={member.linkedin}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="linkedin-link inline-block mt-4"
+                        >
+                            <img
+                                src={Logo}
+                                alt={`${member.name}'s LinkedIn`}
+                                className="w-6 h-6 mx-auto"
+                            />
+                        </a>
+                    )}
+                </div>
+            ))}
+        </div>
+    </section>
+);
 };
+
 
 export default Team;

@@ -31,7 +31,7 @@ const Buttons = () => {
         className="apply-button"
         data-hackathon-slug="ghrhack"
         data-button-theme="light"
-        // style={{ height: "44px", width: "3px" }}
+        style={{ height: "44px", width: "3px" }}
       ></div>
 
       {/* Discord Button */}
