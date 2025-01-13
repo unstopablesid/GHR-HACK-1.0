@@ -12,7 +12,7 @@ const Buttons = () => {
         rel="noopener noreferrer"
         className="button devfolio-btn"
       >
-         <img src={Dev} className="w-6 rounded-sm mr-2" alt="DEVFOLIO LOGO" />Apply with Devfolio 
+         <img src={Dev} className="w-6 rounded-sm mr-2" alt="APPLY WITH DEVFOLIO" />Apply with Devfolio 
       </a>
 
       {/* Discord Button */}

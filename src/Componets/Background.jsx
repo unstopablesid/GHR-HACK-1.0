@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const Background = () => {
   return (
-    <div className="App relative overflow-hidden flex h-screen ">
+    <div className="App relative overflow-hidden flex h-[120vh] ">
       {/* Video Background */}
         <video
           autoPlay
