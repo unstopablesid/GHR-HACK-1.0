@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Dev from '../assets/Sponsers/Devfolio.png';
 import Polygon from '../assets/Sponsers/polygon.png';
 import ETH from '../assets/Sponsers/ETHindia.png';
