@@ -25,13 +25,13 @@ const Buttons = () => {
   }, []);
 
   return (
-    <div className="button-container">
+    <div className="button-container pb-32">
       {/* Devfolio Button */}
       <div
         className="apply-button"
         data-hackathon-slug="ghrhack"
         data-button-theme="light"
-        
+        // style={{ height: "44px", width: "3px" }}
       ></div>
 
       {/* Discord Button */}
@@ -41,7 +41,7 @@ const Buttons = () => {
         rel="noopener noreferrer"
         className="button discord-btn"
       >
-        <i className="fab fa-discord text-xl"></i> Join Discord Server
+        <i className="fab fa-discord text-xl md:text-sm"></i> Join Discord Server
       </a>
     </div>
   );

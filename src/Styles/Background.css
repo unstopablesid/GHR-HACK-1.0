@@ -1,26 +1,24 @@
-
-
-
+/* Ensure full height for html and body */
 body, html {
   margin: 0;
   padding: 0;
-  /* height: 100%; */
-  overflow: hidden;
-  bottom: 0;
+  width: 100%;
+  height: 100%; /* Required for child elements to use 100% height */
+  overflow: hidden; /* Prevent scrollbars */
 }
 
-
-
- /* .background-video {
+/* Style the video */
+.background-video {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  z-index: -1; /* Send the video behind the content 
-}  */
+  object-fit: cover; /* Ensures the video scales properly */
+  z-index: -1; /* Send the video behind the content */
+}
 
+/* Overlay ensures content is above the video */
 .overlay {
   position: relative;
   z-index: 1; /* Keep content above the video */
