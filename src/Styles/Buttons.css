@@ -1,67 +1,56 @@
-/* Container for buttons */
 .button-container {
-    display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.apply-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff; /* Match Devfolio light theme */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.apply-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.discord-btn {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5865f2; /* Discord brand color */
+  color: #ffffff;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.discord-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+  .button-container {
+    flex-direction: column;
     gap: 1rem;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0.75rem;
-    padding-bottom: 3rem;
   }
-  
-  /* General Button Styles */
-  .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    font-size: 1rem;
-    font-weight: 500;
-    padding: 0.8rem 1.5rem;
-    border-radius: 8px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  .discord-btn,
+  .apply-button {
+    width: 100%; /* Stretch buttons on smaller screens */
+    text-align: center;
   }
-  
-  /* Devfolio Button */
-  .devfolio-btn {
-    background-color: #3770ff;
-    color: #ffffff;
-    /* border: 2px solid #002fff; */
-  }
-  
-  .devfolio-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 5px 15px rgba(0, 130, 108, 0.44);
-  }
-  
-  /* Discord Button */
-  .discord-btn {
-    background-color: #5865f2;
-    color: #ffffff;
-    /* border: 2px solid #000000ca; */
-  }
-  
-  .discord-btn:hover {
-    transform: scale(1.05);
-    box-shadow: 0 5px 15px rgba(0, 130, 108, 0.44);
-  }
-  
-  /* Icon Styles */
-  .button i {
-    margin-right: 0.5rem;
-    font-size: 0.75rem;
-  }
-  @media screen and (max-width: 768px) {
-    .button-container {
-      flex-direction: row;
-      position: relative;
-      margin-top: 1rem;
-      padding-bottom: 5rem;
-      width: 70%;
-      /* font-size: 0.5rem; */
-    }
-    .button {
-      font-size: 0.5rem;
-      padding: 0.5rem 1rem;
-    }
-    
-  }
+}

@@ -1,19 +1,38 @@
-// import React from "react";
-import "../Styles/Buttons.css"; // Add the CSS styles
-import Dev from "../assets/Logo/Dev.png"
+import React, { useEffect } from "react";
+import "../Styles/Buttons.css";
 
 const Buttons = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+
+    document.body.appendChild(script);
+
+    script.onload = () => {
+      if (window.Devfolio) {
+        window.Devfolio.Button.init({
+          key: "your-devfolio-public-key", // Replace with your Devfolio public key
+          container: ".apply-button",
+        });
+      }
+    };
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className="button-container">
       {/* Devfolio Button */}
-      <a
-        href="https://ghrhack.devfolio.co/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="button devfolio-btn"
-      >
-         <img src={Dev} className="w-6 rounded-sm mr-2" alt="APPLY WITH DEVFOLIO" />Apply with Devfolio 
-      </a>
+      <div
+        className="apply-button"
+        data-hackathon-slug="ghrhack"
+        data-button-theme="light"
+        
+      ></div>
 
       {/* Discord Button */}
       <a
@@ -22,7 +41,7 @@ const Buttons = () => {
         rel="noopener noreferrer"
         className="button discord-btn"
       >
-        <i className="fab fa-discord text-xl"></i> Discord Server
+        <i className="fab fa-discord text-xl"></i> Join Discord Server
       </a>
     </div>
   );
