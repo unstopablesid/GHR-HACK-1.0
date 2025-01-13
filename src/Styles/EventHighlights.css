@@ -15,16 +15,16 @@
   align-items: center;
   max-width: 62.5rem; /* 1000px to rem */
   color: white;
-  transform-style: preserve-3d; /* Enables 3D transformations */
-  transition: transform 1s ease-out;
+  /* transform-style: preserve-3d; */ /* Enables 3D transformations */
+  /* transition: transform 1s ease-out; */
 }
 
 .highlights-text {
   max-width: 600px;
   margin-right: 1.875rem; /* Added margin on right side */
-  opacity: 0; /* Initially invisible */
-  transform: translateX(-100px); /* Start position for smooth entrance */
-  transition: transform 2s ease-out, opacity 1s ease-out;
+  opacity: 1; /* Ensure the text is fully visible */
+  /* transform: translateX(0); */ /* Remove the initial offset for smooth entry */
+  /* transition: transform 2s ease-out, opacity 1s ease-out; */
 }
 
 /* Heading style */
@@ -56,8 +56,8 @@
 
 .highlights-image {
   max-width: 18.75rem; /* 300px to rem */
-  transition: transform 0.6s ease-out;
-  transform-origin: center center;
+  /* transition: transform 0.6s ease-out; */
+  /* transform-origin: center center; */
   margin-left: 1.875rem; /* Added margin on left side */
 }
 
@@ -69,14 +69,14 @@
     flex-direction: column;
     /* padding-bottom: 25rem; */
     text-align: center;
-    transform: translateZ(0); /* Ensure proper 3D rendering */
+    /* transform: translateZ(0); */ /* Ensure proper 3D rendering */
   }
 
   .highlights-text {
     text-align: center;
     opacity: 1; /* Ensure the text is fully visible */
-    transform: translateX(0); /* Remove the initial offset for smooth entry */
-    transition: none; /* Disable the animation on mobile */
+    /* transform: translateX(0); */ /* Remove the initial offset for smooth entry */
+    /* transition: none; */ /* Disable the animation on mobile */
   }
 
   .highlights-image {
@@ -99,8 +99,8 @@
   .highlights-text h2{
     font-size: 2rem;
     font-family: 'Ghr4';
-    transform: none;
-    transition: none;
+    /* transform: none; */
+    /* transition: none; */
   }
   .highlights-text ul li {
     font-size: 0.75rem;

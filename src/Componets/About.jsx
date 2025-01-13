@@ -1,12 +1,56 @@
-
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "../Styles/about.css";
 import turtleImage from "../assets/images/Turtle.png"; // Replace with your image path
-import { useRef } from "react";
 
 const AboutSection = () => {
   const aboutRef = useRef(null);
   const imageRef = useRef(null);
   const textRef = useRef(null);
+
+  useEffect(() => {
+    // Register ScrollTrigger plugin
+    gsap.registerPlugin(ScrollTrigger);
+
+    // Fade-in animation for the image
+    gsap.fromTo(
+      imageRef.current,
+      {
+        opacity: 0,
+        y: -50, // Start position (50px above)
+      },
+      {
+        opacity: 1,
+        y: 0, // End position (original position)
+        scrollTrigger: {
+          trigger: imageRef.current,
+          start: "top 80%", // When the top of the element is at 80% of the viewport
+          end: "bottom 20%",
+          scrub: true, // Smooth animation on scroll
+        },
+      }
+    );
+
+    // Fade-in animation for the text
+    gsap.fromTo(
+      textRef.current,
+      {
+        opacity: 0,
+        y: -50, // Start position (50px above)
+      },
+      {
+        opacity: 1,
+        y: 0, // End position (original position)
+        scrollTrigger: {
+          trigger: textRef.current,
+          start: "top 80%", // When the top of the element is at 80% of the viewport
+          end: "bottom 20%",
+          scrub: true, // Smooth animation on scroll
+        },
+      }
+    );
+  }, []);
 
   return (
     <div ref={aboutRef} className="about-container font-[Ghr4]">

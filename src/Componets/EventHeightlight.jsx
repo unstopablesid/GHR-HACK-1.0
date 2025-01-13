@@ -1,12 +1,15 @@
-
+import React, { useRef } from "react";
 import "../Styles/EventHighlights.css";
 import mantaRayImage from "../assets/images/manta-ray.png";
 
 const EventHighlights = () => {
+  const imageRef = useRef(null);
+  const textRef = useRef(null);
+
   return (
     <div className="highlights-container font-[Ghr4]">
       <div className="highlights-content">
-        <div  className="highlights-text z-20">
+        <div ref={textRef} className="highlights-text z-20">
           <h2 className="text-white">Event Highlights</h2>
           <ul>
             <li>
@@ -33,6 +36,12 @@ const EventHighlights = () => {
             </li>
           </ul>
         </div>
+        <img
+          ref={imageRef}
+          src={mantaRayImage}
+          alt="Manta Ray"
+          className="highlights-image"
+        />
       </div>
     </div>
   );

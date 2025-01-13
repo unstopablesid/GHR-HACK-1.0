@@ -28,10 +28,10 @@ const Buttons = () => {
     <div className="button-container pb-32">
       {/* Devfolio Button */}
       <div
-        className="apply-button"
+        className="apply-button rounded w-6 "
         data-hackathon-slug="ghrhack"
         data-button-theme="light"
-        style={{ height: "44px", width: "3px" }}
+        // style={{ height: "44px", width: "3px" }}
       ></div>
 
       {/* Discord Button */}

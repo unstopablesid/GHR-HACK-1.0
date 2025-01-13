@@ -59,50 +59,29 @@ import Cyber from "../assets/ThemeLogo/cyber-security.png";
     ];
 
     const HackathonThemes = () => {
-    const cardRefs = useRef([]);
+        const cardRefs = useRef([]);
 
-    useEffect(() => {
-        // Register ScrollTrigger plugin
-        gsap.registerPlugin(ScrollTrigger);
+        useEffect(() => {
+            gsap.registerPlugin(ScrollTrigger);
 
-        themes.forEach((theme, index) => {
-        const card = cardRefs.current[index];
-
-        let animationProps = {
-            opacity: 0,
-            y: 60,
-        };
-
-        if (index === 0) {
-            // First card: Coming from the left
-            animationProps.x = -250;
-        } else if (index === 1) {
-            // Second card: Coming from the top
-            animationProps.y = -250;
-        } else if (index === 2) {
-            // Third card: Coming from the right
-            animationProps.x = 250;
-        }
-
-        // Animation for each card
-        gsap.fromTo(
-            card,
-            animationProps,
-            {
-            opacity: 1,
-            x: 0,
-            y: 0,
-            scrollTrigger: {
-                trigger: card,
-                start: "top 80%", // Start when top of the card is at 80% of the viewport
-                end: "bottom 20%",
-                scrub: true,
-                 // Smooth animation on scroll
-            },
-            }
-        );
-        });
-    }, []);
+            cardRefs.current.forEach((card, index) => {
+                gsap.fromTo(
+                    card,
+                    { opacity: 0, y: 50 },
+                    {
+                        opacity: 1,
+                        y: 0,
+                        duration: 1,
+                        scrollTrigger: {
+                            trigger: card,
+                            start: "top 80%",
+                            end: "bottom 20%",
+                            toggleActions: "play none none reverse",
+                        },
+                    }
+                );
+            });
+        }, []);
 
     return (
         <section id="Theme" className="font-[Ghr4] bg-gradient-to-t to-[#0e7490] from-[#014EB6] text-white py-16  ">
