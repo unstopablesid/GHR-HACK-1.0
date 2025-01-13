@@ -13,6 +13,7 @@ const Navbar = () => {
         <li><a href="#home" className="hover:text-gray-300">Home</a></li>
         <li><a href="#Theme" className="hover:text-gray-300">Themes</a></li>
         <li><a href="#Schedule" className="hover:text-gray-300">Schedule</a></li>
+        <li><a href="#Sponsors" className="hover:text-gray-300">Sponsors</a></li>
         <li><a href="#Team" className="hover:text-gray-300">Team</a></li>
         <li><a href="#FAQ" className="hover:text-gray-300">FAQ</a></li>
         <li><a href="#Contact" className="hover:text-gray-300">Contact</a></li>
