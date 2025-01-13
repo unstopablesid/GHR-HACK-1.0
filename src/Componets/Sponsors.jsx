@@ -1,5 +1,5 @@
 
-import Dev from '../assets/Sponsers/DEVFOLIO.png';
+import kalpesh from '../assets/Sponsers/DEVFOLIO.png';
 import Polygon from '../assets/Sponsers/polygon.png';
 import ETH from '../assets/Sponsers/ETHindia.png';
 
@@ -14,7 +14,7 @@ const Sponsors = () => {
         <div className="space-y-12 text-center font-[Ghr4]">
           <div className="text-center"></div>
             <h3 className="text-3xl font-semibold mb-4">Gold Sponsor</h3>
-            <img src={Dev} alt="DEVFOLIO LOGO" className="mx-auto w-[20rem] rounded-xl" />
+            <img src={kalpesh} alt="DEVFOLIO LOGO" className="mx-auto w-[20rem] rounded-xl" />
           </div>
         </div>
 
