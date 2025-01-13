@@ -1,6 +1,5 @@
 import "../Styles/Navbar.css"; // Optional for custom styling
 import Logo from "../assets/images/GHR.png"; // Optional for custom styling
-import RaisoniBanner from "../assets/Logo/Raisoni banner.png"
 
 const Navbar = () => {
   return (
@@ -13,9 +12,9 @@ const Navbar = () => {
       <ul className="hidden md:flex nav-links font-[Ghr4] uppercase text-sm md:text-xl space-x-2">
         <li><a href="#home" className="hover:text-gray-300">Home</a></li>
         <li><a href="#Theme" className="hover:text-gray-300">Themes</a></li>
-        <li><a href="#Team" className="hover:text-gray-300">Schedule</a></li>
+        <li><a href="#Schedule" className="hover:text-gray-300">Schedule</a></li>
         <li><a href="#Team" className="hover:text-gray-300">Team</a></li>
-        <li><a href="#Team" className="hover:text-gray-300">FAQ</a></li>
+        <li><a href="#FAQ" className="hover:text-gray-300">FAQ</a></li>
         <li><a href="#Contact" className="hover:text-gray-300">Contact</a></li>
       </ul>
       {/* Hamburger Menu for Small Screens */}
