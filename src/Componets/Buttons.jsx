@@ -25,13 +25,12 @@ const Buttons = () => {
   }, []);
 
   return (
-    <div className="button-container pb-32">
+    <div className="button-container pb-32 flex flex-col items-center space-y-4">
       {/* Devfolio Button */}
       <div
-        className="apply-button rounded w-6 "
+        className="apply-button rounded w-full max-w-xs h-12"
         data-hackathon-slug="ghrhack"
         data-button-theme="light"
-        // style={{ height: "44px", width: "3px" }}
       ></div>
 
       {/* Discord Button */}
@@ -39,9 +38,9 @@ const Buttons = () => {
         href="https://discord.gg/ykhxjbC26F"
         target="_blank"
         rel="noopener noreferrer"
-        className="button discord-btn"
+        className="button discord-btn flex items-center justify-center w-full max-w-xs h-12 bg-blue-600 text-white rounded"
       >
-        <i className="fab fa-discord text-xl md:text-sm"></i> Join Discord Server
+        <i className="fab fa-discord text-xl md:text-sm mr-2"></i> Join Discord Server
       </a>
     </div>
   );
