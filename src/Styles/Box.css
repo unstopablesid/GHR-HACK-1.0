@@ -1,6 +1,18 @@
+/* @keyframes bounce {
+  0%, 100% {
+    transform: translateY(-5%);
+  }
+  50% {
+    transform: translateY(5%);
+  }
+} */
+
+/* .prize-card-3d {
+  animation: bounce 2s infinite;
+} */
 
 
-/* .prizes-content {
+.prizes-content {
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -44,4 +56,4 @@
   right: -50px;
   max-width: 300px;
   opacity: 0.8;
-} */
+} 

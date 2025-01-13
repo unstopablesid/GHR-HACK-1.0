@@ -11,7 +11,7 @@ const Background = () => {
           autoPlay
           loop
           muted
-          className="absolute top-0 left-0 w-full h-[100%]  object-cover"
+          className="absolute top-0 left-0   object-cover"
         >
           <source src={VideoBG} type="video/mp4" />
           {/* Fallback message */}

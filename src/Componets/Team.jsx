@@ -16,8 +16,8 @@ import Jain from "../assets/Team/Neeraj.jpg"
 // Team data
 const teamMembers = [
     { name: "Kartik Chaudhari", role: "Overall Coordinator", photo: Kartik , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-0b1b3b1b7" },
-    { name: "Vidya Baviskar", role: "Overall Coordinator", photo: Vidya ,Logo: Logo, linkedin: "https://www.linkedin.com/in/vidya-baviskar-0b1b3b1b7" },
     { name: "Kalpesh Borde", role: "Overall Coordinator", photo: Kalpesh, linkedin: "https://www.linkedin.com/in/kalpesh-borde-0b1b3b1b7",Logo: Logo  },
+    { name: "Vidya Baviskar", role: "Overall Coordinator", photo: Vidya ,Logo: Logo, linkedin: "https://www.linkedin.com/in/vidya-baviskar-0b1b3b1b7" },
     { name: "Mrunal Mahajan", role: "Operations Lead", photo: Mrunal,Logo: Logo ,linkedin: "https://www.linkedin.com/in/mrunal-mahajan-0b1b3b1b7" },
     { name: "Mayur Nikumbh", role: "Technical Lead", photo: Mayur ,Logo: Logo ,linkedin: "https://www.linkedin.com/in/mayur-nikumbh"},
     { name: "Kunal Badgujar", role: "Logistics Lead", photo: Kunal ,Logo: Logo ,linkedin: "https://www.linkedin.com/in/kunal-badgujar-0b1b3b1b7" },

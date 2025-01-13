@@ -1,17 +1,18 @@
 // import React from "react";
 import "../Styles/Buttons.css"; // Add the CSS styles
+import Dev from "../assets/Logo/Dev.png"
 
 const Buttons = () => {
   return (
     <div className="button-container">
       {/* Devfolio Button */}
       <a
-        href="https://devfolio.co/"
+        href="https://ghrhack.devfolio.co/"
         target="_blank"
         rel="noopener noreferrer"
         className="button devfolio-btn"
       >
-        <i className="fas fa-external-link-alt"></i> Register Here
+         <img src={Dev} className="w-6 rounded-sm mr-2" alt="" />Register Here
       </a>
 
       {/* Discord Button */}
