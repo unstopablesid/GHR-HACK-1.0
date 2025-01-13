@@ -23,9 +23,9 @@
   
   /* Devfolio Button */
   .devfolio-btn {
-    background-color: #002fff;
+    background-color: #3770ff;
     color: #ffffff;
-    border: 2px solid #002fff;
+    /* border: 2px solid #002fff; */
   }
   
   .devfolio-btn:hover {
@@ -35,9 +35,9 @@
   
   /* Discord Button */
   .discord-btn {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: #5865f2;
     color: #ffffff;
-    border: 2px solid #000000ca;
+    /* border: 2px solid #000000ca; */
   }
   
   .discord-btn:hover {

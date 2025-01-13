@@ -6,8 +6,8 @@
   background: linear-gradient(to bottom,#00A6D2, #0e7490 );
   padding: 3.125rem; /* 50px to rem */
   height: 100vh; /* Full screen height */
-  perspective: 1200px; /* Add depth for 3D effect */
-  overflow: hidden;
+  /* perspective: 1200px; Add depth for 3D effect */
+  /* overflow: hidden; */
 }
 
 .about-content {

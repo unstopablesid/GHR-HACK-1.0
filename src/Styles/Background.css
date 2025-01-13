@@ -9,11 +9,7 @@ body, html {
   bottom: 0;
 }
 
-.App {
-  position: relative;
-  height: 100vh; 
-  width: 100%;
-}
+
 
  /* .background-video {
   position: absolute;

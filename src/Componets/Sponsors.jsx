@@ -1,7 +1,7 @@
 import React from 'react';
-import Dev from '../assets/Sponsers/devfolio.png';
+import Dev from '../assets/Sponsers/Devfolio.png';
 import Polygon from '../assets/Sponsers/polygon.png';
-import ETH from '../assets/Sponsers/ETH-India.png';
+import ETH from '../assets/Sponsers/ETHindia.png';
 
 const Sponsors = () => {
   return (
@@ -14,15 +14,15 @@ const Sponsors = () => {
         <div className="space-y-12 text-center font-[Ghr4]">
           <div className="text-center"></div>
             <h3 className="text-3xl font-semibold mb-4">Gold Sponsor</h3>
-            <img src={Dev} alt="Vultr" className="mx-auto w-[20rem] rounded-xl" />
+            <img src={Dev} alt="DEVFOLIO LOGO" className="mx-auto w-[20rem] rounded-xl" />
           </div>
         </div>
 
         <div className="mt-16 align-center justify-center text-center font-[Ghr4]">
           <h3 className="text-3xl font-semibold text-center mb-6">Silver Sponsors</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-1 gap-4  md:px-10">
-            <img src={ETH} alt="Eth-india" className=" mx-auto w-[20rem] rounded-xl " />
-            <img src={Polygon} alt="Polygon" className="mx-auto w-[20rem] rounded-xl" />
+            <img src={ETH} alt="ETHINDIA LOGO" className=" mx-auto w-[20rem] rounded-xl " />
+            <img src={Polygon} alt="POLYGON LOGO" className="mx-auto w-[20rem] rounded-xl" />
           </div>
         </div>
       </div>

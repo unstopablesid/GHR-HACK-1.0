@@ -5,13 +5,13 @@ import Navbar from "./Navbar";
 
 const Background = () => {
   return (
-    <div className="App relative overflow-hidden flex h-[1--vyh] ">
+    <div className="App relative overflow-hidden flex h-screen ">
       {/* Video Background */}
         <video
           autoPlay
           loop
           muted
-          className="absolute top-0 left-0 w-full h-[110vh]  object-cover"
+          className="absolute top-0 left-0 w-full object-cover"
         >
           <source src={VideoBG} type="video/mp4" />
           {/* Fallback message */}
