@@ -1,9 +1,10 @@
-.footer {
-    /* background-color: #5d1dff;
-    color: #fff;
-    font-family: Arial, sans-serif; */
-    /* padding: 30px 20px; */
-    
+.Footer {
+  background-blend-mode: multiply;
+}
+
+.Bagckground1{
+background-image: url("../assets/images/Coral.png");
+
   }
   .footer-container {
     display: flex;
@@ -35,9 +36,7 @@
     color: white;
     font-size: 25px;
   }
-  .footer-links{
-    /* margin-right: 10px; */
-  }
+
   .footer-links ul {
     list-style: none;
     padding: 0;
@@ -55,7 +54,7 @@
   }
   
   .footer-links ul li a:hover {
-    color: #afafaf;
+    color: #5731ff;
     font-size: 1.25rem;
     transition: 0.5s ease-in-out;
   }
@@ -74,9 +73,7 @@
   }
   
   .footer-socials a:hover {
-    color: #afafaf;
-    cursor: url('../Hover.png'),pointer;
-    
+    color: #5731ff;    
   }
   .UseFull{
     width: 1rem;

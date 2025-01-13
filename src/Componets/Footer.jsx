@@ -3,9 +3,9 @@ import "../Styles/Footer.css";
 
 const Footer = () => {
   return (
-    <div className="bg-[#011947] Bagckground1">
-      <footer className="footer bg-black bg-opacity-30 text-white px-3 py-8">
-        <div className="footer-container max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center md:items-start space-y-8 md:space-y-0">
+    <div className="bg-[#011947] min-h-[50vh] ">
+      <footer className="footer bg-black bg-opacity-30  text-white px-3 py-8">
+        <div className="footer-container max-w-7xl min-h-[50vh]  mx-auto flex flex-col md:flex-row justify-between items-center md:items-start space-y-8 md:space-y-0">
           {/* Logo and About Section */}
           <div className="footer-about text-center md:text-left text-xs md:text-sm">
             <h1 className="font-bold text-xl md:text-3xl mb-4">
