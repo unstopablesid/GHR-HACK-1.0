@@ -35,7 +35,7 @@ const Buttons = () => {
 
       {/* Discord Button */}
       <a
-        href="https://discord.gg/ykhxjbC26F"
+        href="https://discord.gg/ecSMDvnQky"
         target="_blank"
         rel="noopener noreferrer"
         className="button discord-btn flex items-center justify-center w-full max-w-xs h-12 bg-blue-600 text-white rounded"
