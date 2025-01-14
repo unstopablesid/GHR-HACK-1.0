@@ -46,11 +46,9 @@ nav {
 }
 #Btn:hover{
 box-shadow: 1px 5px 1px rgba(0, 0, 0, 0.6);
-cursor: url('../Hover.png'),pointer;
+
 }
-#Btn a:hover{
-  cursor: url('../Hover.png'),pointer;
-}
+
 @media screen and (max-width: 768px) {
   .nav-links a {
   

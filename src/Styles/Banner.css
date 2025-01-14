@@ -19,6 +19,7 @@
 /* Optional responsiveness */
 @media screen and (max-width: 768px) {
     .banner-image {
-        max-width: 100px; /* Adjust size for smaller screens */
+        /* max-width: 100px; Adjust size for smaller screens */
+        display: none; /* Hide the banner image on smaller screens */
     }
 }
