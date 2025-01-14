@@ -1,11 +1,38 @@
 
 import { useEffect, useRef } from "react";
 import "../Styles/Contact.css";
+import Swal from 'sweetalert2'
 
 const Contact = () => {
     const leftSectionRef = useRef(null);
     const rightSectionRef = useRef(null);
-
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        const formData = new FormData(event.target);
+    
+        formData.append("access_key", "321517e5-c167-4e99-a7c7-efc628eef432");
+    
+        const object = Object.fromEntries(formData);
+        const json = JSON.stringify(object);
+    
+        const res = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Accept: "application/json"
+          },
+          body: json
+        }).then((res) => res.json());
+    
+        if (res.success) {
+            Swal.fire({
+                title: "Great",
+                text:"Your messege sent successfully",
+                icon: "success",
+                draggable: true
+              });
+        }
+      };
     useEffect(() => {
         const observer = new IntersectionObserver(
             (entries) => {
@@ -54,17 +81,21 @@ const Contact = () => {
                 ref={rightSectionRef}
                 className="bg-white p-8 rounded-lg shadow-2xl w-full max-w-md transition-opacity opacity-0 transform translate-x-10"
             >
-                <form className="space-y-6">
+                <form onSubmit={onSubmit} className="space-y-6">
                     <div className="flex space-x-4">
                         <input
                             className="Cursor2 w-1/2 p-3 border-b border-gray-300 focus:outline-none focus:border-purple-600 text-gray-900 shadow-inner"
                             placeholder="Full Name*"
                             type="text"
+                            name="name"
+                            required
                         />
                         <input
                             className="Cursor2 w-1/2 p-3 border-b border-gray-300 focus:outline-none focus:border-purple-600 text-gray-900 shadow-inner"
                             placeholder="Email*"
                             type="email"
+                            name="email"
+                            required
                         />
                     </div>
                     <div className="flex items-center space-x-2">
@@ -79,11 +110,14 @@ const Contact = () => {
                             className="Cursor2 w-full p-3 border-b border-gray-300 focus:outline-none focus:border-purple-600 text-gray-900 shadow-inner"
                             placeholder="+91 Phone Number*"
                             type="text"
+                            name="contact"
                         />
                     </div>
                     <textarea
                         className="Cursor2 w-full p-3 border-b border-gray-300 focus:outline-none focus:border-purple-600 text-gray-900 shadow-inner"
                         placeholder="Leave us a message"
+                        name="message" 
+                        required
                     ></textarea>
                     <div className="flex items-center space-x-2">
                         <input className="Cursor2 form-checkbox transform scale-110" type="checkbox" />
