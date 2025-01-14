@@ -1,10 +1,30 @@
-import React, { useRef } from "react";
+import  { useRef, useEffect } from "react";
 import "../Styles/EventHighlights.css";
 import mantaRayImage from "../assets/images/manta-ray.png";
 
 const EventHighlights = () => {
   const imageRef = useRef(null);
   const textRef = useRef(null);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const textPosition = textRef.current.getBoundingClientRect().top;
+      const imagePosition = imageRef.current.getBoundingClientRect().top;
+      const screenPosition = window.innerHeight / 1.3;
+
+      if (textPosition < screenPosition) {
+        textRef.current.classList.add("fade-in-top");
+      }
+      if (imagePosition < screenPosition) {
+        imageRef.current.classList.add("fade-in-top");
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <div className="highlights-container font-[Ghr4]">
@@ -48,3 +68,4 @@ const EventHighlights = () => {
 };
 
 export default EventHighlights;
+

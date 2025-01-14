@@ -91,22 +91,31 @@
     color: tomato;
   }
 }
-
 @media screen and (max-width: 780px) {
-  .highlights-text{
+  .highlights-content {
+    flex-direction: column;
     text-align: center;
   }
-  .highlights-text h2{
+
+  .highlights-text {
+    text-align: center;
+    margin-right: 0;
+  }
+
+  .highlights-text h2 {
     font-size: 2rem;
     font-family: 'Ghr4';
-    /* transform: none; */
-    /* transition: none; */
   }
+
+  .highlights-text ul {
+    padding-left: 0;
+  }
+
   .highlights-text ul li {
-    font-size: 0.75rem;
+    font-size: 0.875rem; /* Slightly larger for better readability */
   }
 
   .highlights-image {
-    display: none; 
+    display: none;
   }
 }

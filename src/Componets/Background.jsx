@@ -2,6 +2,7 @@ import VideoBG from "../assets/Background.mp4";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Buttons from "./Buttons";
+import Banner from "./Banner";
 
 const Background = () => {
   return (
@@ -23,6 +24,7 @@ const Background = () => {
 
       {/* Navbar */}
       <Navbar />
+      <Banner />
 
       {/* Home Component */}
       <div className="relative z-10">

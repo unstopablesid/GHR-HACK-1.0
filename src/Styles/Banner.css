@@ -1,0 +1,24 @@
+/* Banner.css */
+
+/* Container styling for the banner */
+.banner-container {
+    position: fixed; /* Makes positioning relative to the nearest positioned ancestor */
+    top: 0; /* Aligns the banner to the top */
+    right: 0; /* Aligns the banner to the right */
+    z-index: 30; /* Ensures it appears above other elements if needed */
+    padding: 10px; /* Adds some spacing for visual appeal */
+}
+
+/* Styling for the banner image */
+.banner-image {
+    max-width:5rem; /* Adjust the width to fit the design */
+    height: auto; /* Maintain aspect ratio */
+
+}
+
+/* Optional responsiveness */
+@media screen and (max-width: 768px) {
+    .banner-image {
+        max-width: 100px; /* Adjust size for smaller screens */
+    }
+}

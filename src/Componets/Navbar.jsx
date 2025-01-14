@@ -8,16 +8,17 @@ const Navbar = () => {
       <div className="flex items-center">
         <img className="w-11 h-auto Logo" src={Logo} alt="Logo" />
       </div>
-      {/* Navigation Links */}
-      <ul className="hidden md:flex nav-links font-[Ghr4] uppercase text-sm md:text-xl space-x-2">
-        <li><a href="#home" className="hover:text-gray-300">Home</a></li>
-        <li><a href="#Theme" className="hover:text-gray-300">Themes</a></li>
-        <li><a href="#Schedule" className="hover:text-gray-300">Schedule</a></li>
-        <li><a href="#Sponsors" className="hover:text-gray-300">Sponsors</a></li>
-        <li><a href="#Team" className="hover:text-gray-300">Team</a></li>
-        <li><a href="#FAQ" className="hover:text-gray-300">FAQ</a></li>
-        <li><a href="#Contact" className="hover:text-gray-300">Contact</a></li>
-      </ul>
+      <div className="flex-grow flex justify-center">
+        <ul className="hidden md:flex nav-links font-[Ghr4] align-center uppercase text-sm md:text-xl space-x-2">
+          <li><a href="#home" className="hover:text-gray-300">Home</a></li>
+          <li><a href="#Theme" className="hover:text-gray-300">Themes</a></li>
+          <li><a href="#Schedule" className="hover:text-gray-300">Schedule</a></li>
+          <li><a href="#Sponsors" className="hover:text-gray-300">Sponsors</a></li>
+          <li><a href="#Team" className="hover:text-gray-300">Team</a></li>
+          <li><a href="#FAQ" className="hover:text-gray-300">FAQ</a></li>
+          <li><a href="#Contact" className="hover:text-gray-300">Contact</a></li>
+        </ul>
+      </div>
       {/* Hamburger Menu for Small Screens */}
       <div className="md:hidden pr-5 Menu">
         <button
@@ -47,7 +48,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <ul className="mobile-menu align-center justify-center text-center hidden flex-col absolute top-[4.4rem] left-0 w-full bg-black bg-opacity-50 text-white font-[Ghr4] text-sm space-y-4 px-4 py-4 z-10">
-      <li><a href="#home" className="hover:text-gray-300">Home</a></li>
+        <li><a href="#home" className="hover:text-gray-300">Home</a></li>
         <li><a href="#Theme" className="hover:text-gray-300">Themes</a></li>
         <li><a href="#Schedule" className="hover:text-gray-300">Schedule</a></li>
         <li><a href="#Team" className="hover:text-gray-300">Team</a></li>
