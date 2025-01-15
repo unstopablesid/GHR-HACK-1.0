@@ -1,37 +1,14 @@
 import React, { useEffect } from "react";
 import "../Styles/Buttons.css";
+import Logo from "../assets/Logo/Dev.png"
 
 const Buttons = () => {
-  useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://apply.devfolio.co/v2/sdk.js";
-    script.async = true;
-    script.defer = true;
-
-    document.body.appendChild(script);
-
-    script.onload = () => {
-      if (window.Devfolio) {
-        window.Devfolio.Button.init({
-          key: "https://ghrhack.devfolio.co/", 
-          container: ".apply-button",
-        });
-      }
-    };
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   return (
     <div className="button-container pb-32 flex flex-col items-center space-y-4">
       {/* Devfolio Button */}
-      <div
-        className="apply-button rounded w-full max-w-xs h-12"
-        data-hackathon-slug="ghrhack"
-        data-button-theme="light"
-      ></div>
+      <a href="https://ghrhack.devfolio.co/"><div
+        className=" text-[#3770ff] apply-button rounded w-full max-w-xs h-12"
+      ><img src={Logo} className="w-8" alt="" />Register Here </div></a>
 
       {/* Discord Button */}
       <a

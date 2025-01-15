@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  /* color: rgb(55, 112, 255); */
   cursor: pointer;
   margin-top: 1.5rem;
 }
@@ -10,9 +11,11 @@
 .apply-button {
   cursor: pointer;
   display: flex;
+  width: 25rem;
   justify-content: center;
   align-items: center;
-  background-color: #ffffff;
+  color: white;
+  background-color: #3770ff;
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s ease, box-shadow 0.2s ease;

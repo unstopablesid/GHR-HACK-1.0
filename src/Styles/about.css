@@ -1,8 +1,8 @@
 /* Base styles for the About section */
 .about-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content:center;
+  align-items: right;
   background: linear-gradient(to bottom,#00A6D2, #0e7490 );
   padding: 3.125rem; /* 50px to rem */
   height: 100vh; /* Full screen height */
@@ -47,7 +47,7 @@
 .about-text p {
   font-size: 1.125rem; /* 18px to rem */
   line-height: 1.8;
-  text-align: Center;
+  text-align: justify;
   letter-spacing: 0.5px;
 }
 

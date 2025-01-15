@@ -29,29 +29,28 @@ const EventHighlights = () => {
   return (
     <div className="highlights-container font-[Ghr4]">
       <div className="highlights-content">
-        <div ref={textRef} className="highlights-text z-20">
-          <h2 className="text-white">Event Highlights</h2>
+        <div ref={textRef} className="highlights-text z-20 ">
+          <h2 className="text-white text-left">Event Highlights</h2>
           <ul>
             <li>
-              <strong>Duration:</strong> 28 hours of non-stop innovation.
+              <strong className="text-[#f5f5f5] text-2xl">Duration:</strong> 28 hours of non-stop innovation.
             </li>
             <li>
-              <strong>Tracks:</strong> Artificial Intelligence, Blockchain,
-              Sustainability, FinTech, Healthcare, Open Innovation.
+              <strong className="text-[#f5f5f5] text-2xl" >Tracks:</strong> EdTech Evolution,Blockchain Revolution,AI and Machine Learning,AR/VR Realities,HealthTechInnovations,Cybersecurity,Agritech,SocialImpact Tech
             </li>
             <li>
-              <strong>Networking Opportunities:</strong> Collaborate with
+              <strong className="text-[#f5f5f5] text-2xl">Networking Opportunities:</strong> Collaborate with
               industry experts, mentors, and peers.
             </li>
             <li>
-              <strong>Workshops:</strong> Participate in hands-on workshops with
+              <strong className="text-[#f5f5f5] text-2xl">Workshops:</strong> Participate in hands-on workshops with
               cutting-edge technologies.
             </li>
             <li>
-              <strong>Recognition:</strong> Certificates for all participants.
+              <strong className="text-[#f5f5f5] text-2xl">Recognition:</strong> Certificates for all participants.
             </li>
             <li>
-              <strong>Exciting Perks:</strong> Goodies, swag, free meals, and
+              <strong className="text-[#f5f5f5] text-2xl">Exciting Perks:</strong> Goodies, swag, free meals, and
               more.
             </li>
           </ul>

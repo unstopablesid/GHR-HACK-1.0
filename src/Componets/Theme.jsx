@@ -12,7 +12,8 @@ import Social from "../assets/ThemeLogo/social.png";
 import Cyber from "../assets/ThemeLogo/cyber-security.png";
 
 
-    
+
+
 
 
     const themes = [
@@ -37,7 +38,7 @@ import Cyber from "../assets/ThemeLogo/cyber-security.png";
         image: Iot,
     },
     {
-        icon: "healthcare",
+        icon: "healthcare", 
         title: "HealthTech Innovations",
         image:  Helthcare,
     },
@@ -93,8 +94,8 @@ import Cyber from "../assets/ThemeLogo/cyber-security.png";
             {themes.map((theme, index) => (
                 <div
                 key={index}
-                ref={(el) => (cardRefs.current[index] = el)} // Store card reference
-                className="theme-card h-56 bg-gradient-to-r from-indigo-500 via-sky-500 to-emerald-500 rounded-lg p-6 flex flex-col items-center shadow-lg transition-transform transform hover:scale-105"
+                ref={(el) => (cardRefs.current[index] = el)} 
+            className="theme-card h-56 bg-gradient-to-r from-[#58B7E6] to-[#316680] rounded-lg p-6 flex flex-col items-center shadow-lg transition-transform transform hover:scale-105"
                 >
                 <img
                     src={theme.image}

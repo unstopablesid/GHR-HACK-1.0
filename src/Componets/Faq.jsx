@@ -5,14 +5,16 @@ const FAQ = () => {
   const [openIndex, setOpenIndex] = useState(null);
 
   const faqs = [
-    { question: "How do i register for the hackthon", answer: "Click on any registration now button on the website" },
-    { question: "What is the participation fee", answer: "Just some enthusiast and open mind are enough me, dont charge any fee" },
-    { question: "What if i dont have a team or idea ?", answer: "Well have a team formation and ideation events to help you find a team." },
+    { question: "How do i register for the hackthon", answer: "Click on Register Here with Devfolio or Scan the QR on the website" },
     { question: "Is there any registration fees?", answer: "No,Registration is completely free" },
-    { question: "Who can participate ?", answer: "Anyone is Welcome to apply-student or working proffesional , Wether you want to inovate or just enjoy a fun weekend you are welcome" },
+    { question: "What is the ideal Team size", answer: "Team should be consist of 3-4 members" },
+    { question: "Why should I participate in GHRhack 1.0?", answer: "Winners get cash prizes worth INR 80k+, and all participants will have excellent networking opportunities, learning new skills, and get cool swags." },
+    { question: "Who can participate ?", answer: "The hackathon is open to all BE/Btech, BCA, MCA, BSc(CS), and postgraduate students as well." },
+    { question: "When and How the team will be shortlisted?", answer: "The team shortlisting starts on 11th February 2025 on individuals resume, profile and innovative idea abstract provided by them." },
+    { question: "Does the hackathon include accomodation and meals for the participants?", answer: "Yes, accomodation and meals for 2 days are provided free of cost for all participants." },
     { question: "Does GHR-HACK provide Internet facility during hackathon?", answer: "Yes, we provide a high-speed internet connection for all participants." },
-    { question: "What is the ideal Team size", answer: "Team should be consist of 2-4 members" },
-    { question: "What is the code of conduct", answer: "To ensure a positive experience for all participants we follow the SIH code of conduct" },
+    
+
   ];
 
   const toggleFAQ = (index) => {

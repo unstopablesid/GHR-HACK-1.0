@@ -6,7 +6,7 @@
     top: 0; /* Aligns the banner to the top */
     right: 0; /* Aligns the banner to the right */
     z-index: 30; /* Ensures it appears above other elements if needed */
-    padding: 10px; /* Adds some spacing for visual appeal */
+    padding: 0.65rem 2rem 0 0; /* Adds some spacing for visual appeal */
 }
 
 /* Styling for the banner image */

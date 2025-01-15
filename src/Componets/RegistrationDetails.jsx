@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "../Styles/RegistrationDetails.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Registration from "../assets/Timeline/Registration QR.png"
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -46,13 +47,13 @@ const RegistrationDetails = () => {
     return (
         <div className=" bg-[#014EB6] flex justify-center items-center min-h-screen registration font-[Ghr4]">
             <div className=" text-center text-white py-10">
-                <h1 className="text-4xl font-bold mb-10 ">REGISTRATION DETAILS</h1>
+                <h1 className="text-4xl  mb-10 ">REGISTRATION DETAILS</h1>
                 <div className="animated-circle-container flex flex-col md:flex-row justify-center items-center space-y-10 md:space-y-0 md:space-x-10">
                     <div className="flex flex-col items-center animated-circle left-circle">
                         <div className="bg-white rounded-full p-8 mb-4 w-64 h-64 flex justify-center items-center mt-10">
-                            <i className="fas fa-qrcode text-black text-9xl"></i>
+                            <img src={Registration} className="w-40" alt="" />
                         </div>
-                        <h2 className="text-xl font-bold text-black">How to Register</h2>
+                        <h2 className="text-2xl  text-white">How to Register</h2>
                         <p>Scan the QR code</p>
                     </div>
                     <div className="text-8xl text-white">
@@ -63,7 +64,7 @@ const RegistrationDetails = () => {
                         <div className="bg-white rounded-full p-8 mb-4 w-64 h-64 flex justify-center items-center mt-10">
                             <i className="fas fa-dollar-sign text-black text-9xl"></i>
                         </div>
-                        <h2 className="text-xl font-bold text-black">No Fees</h2>
+                        <h2 className="text-2xl  text-white">No Fees</h2>
                         <p>Free registration for all</p>
                         <p>Participants</p>
                     </div>
@@ -75,7 +76,7 @@ const RegistrationDetails = () => {
                         <div className="bg-white rounded-full p-8 mb-4 w-64 h-64 flex justify-center items-center mt-10">
                             <i className="fas fa-user-graduate text-black text-9xl"></i>
                         </div>
-                        <h2 className="text-xl font-bold text-black">Eligibility</h2>
+                        <h2 className="text-2xl  text-white">Eligibility</h2>
                         <p>Open to students and</p>
                         <p>professionals nationwide</p>
                     </div>

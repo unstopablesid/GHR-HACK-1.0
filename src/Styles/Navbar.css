@@ -24,7 +24,7 @@ nav {
 }
 
 .nav-links a:hover {
-  color: #6e35ff; /* Orange hover effect */
+  color: #895ff3; /* Orange hover effect */
   cursor: url('../Hover.png'),pointer;
 }
 

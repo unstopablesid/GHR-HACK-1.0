@@ -6,7 +6,7 @@ const Navbar = () => {
     <nav className="mt-2 bg-black font-[Ghr4] bg-opacity-45 z-20 fixed top-0 left-0 right-0 flex items-center justify-between px-4 md:px-8">
       {/* Logo */}
       <div className="flex items-center">
-        <img className="w-11 h-auto Logo" src={Logo} alt="Logo" />
+        <img className="w-16 h-auto Logo" src={Logo} alt="Logo" />
       </div>
       <div className="flex-grow flex justify-center">
         <ul className="hidden md:flex nav-links font-[Ghr4] align-center uppercase text-sm md:text-xl space-x-2">

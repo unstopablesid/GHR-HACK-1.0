@@ -13,7 +13,7 @@ const Footer = () => {
             </h1>
             <p className="leading-relaxed">
               <strong>GHR-HACK</strong>, a groundbreaking hackathon by{" "}
-              <strong>GHRIEBM JALGAON</strong>, redefines creativity and technology. Join us in the
+              <strong>GHRCEM JALGAON</strong>, redefines creativity and technology. Join us in the
               pursuit of innovation, transcending traditional hackathons.
             </p>
           </div>
