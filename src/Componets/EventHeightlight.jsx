@@ -36,7 +36,7 @@ const EventHighlights = () => {
               <strong className="text-[#f5f5f5] text-xl md:text-2xl">Duration:</strong> 28 hours of non-stop innovation.
             </li>
             <li>
-              <strong className="text-[#f5f5f5] text-xl md:text-2xl">Tracks:</strong> EdTech Evolution, Blockchain Revolution, AI and Machine Learning, AR/VR Realities, HealthTech Innovations, Cybersecurity, Agritech, Social Impact Tech
+              <strong className="text-[#f5f5f5] text-xl md:text-2xl">Tracks:</strong> EdTech Evolution,Blockchain Revolution,AI and Machine Learning,AR/VR Realities,HealthTech Innovations,Cybersecurity,Agritech,Social Impact Tech
             </li>
             <li>
               <strong className="text-[#f5f5f5] text-xl md:text-2xl">Networking Opportunities:</strong> Collaborate with industry experts, mentors, and peers.
