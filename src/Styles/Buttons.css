@@ -61,3 +61,9 @@
   }
   
 }
+@media screen and (max-width: 468px) {
+  .button-container{
+    margin-bottom: 5.5rem;
+  }
+  
+}
