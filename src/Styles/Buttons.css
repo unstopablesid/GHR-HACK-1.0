@@ -51,6 +51,7 @@
 
 @media screen and (max-width: 768px) {
   .button-container{
+    margin-top:2rem;
     margin-bottom: 6.5rem;
   }
   
