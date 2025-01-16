@@ -1,7 +1,9 @@
 
 import { useEffect, useRef } from "react";
 import "../Styles/Contact.css";
-import Swal from 'sweetalert2'
+import Swal from 'sweetalert2';
+import PrivacyPolicy from "./PrivacyPolicy";
+import { useNavigate } from "react-router-dom";
 
 const Contact = () => {
     const leftSectionRef = useRef(null);
@@ -120,10 +122,10 @@ const Contact = () => {
                         required
                     ></textarea>
                     <div className="flex items-center space-x-2">
-                        <input className="Cursor2 form-checkbox transform scale-110" type="checkbox" />
+                        <input className="Cursor2 form-checkbox transform scale-110" required type="checkbox" />
                         <label className="Cursor2 text-sm text-gray-900">
                             I have read &amp; I agree to the{" "}
-                            <a className="text-purple-600 underline hover:text-purple-800" href="#">
+                            <a className="text-purple-600 underline hover:text-purple-800"  href="#">
                                 privacy policy.
                             </a>
                         </label>

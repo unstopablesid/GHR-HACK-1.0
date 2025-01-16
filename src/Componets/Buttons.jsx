@@ -30,9 +30,10 @@ const Buttons = () => {
         href={Brochure}
         download
         rel="noopener noreferrer"
-        className="button brochure-btn flex items-center justify-center w-full max-w-xs h-10 md:h-12 bg-green-600 text-white rounded"
+        className="button brochure-btn rounded-xl flex items-center justify-center w-full max-w-xs h-10 md:h-12 bg-green-600 text-white rounded"
       >
-        <i className="fas fa-file-download text-lg md:text-xl mr-2"></i>
+        {/* <i className="fas fa-file-download "></i> */}
+        <i class="ri-download-line text-lg md:text-xl mr-2"></i>
         <span className="text-sm md:text-base">Download Brochure</span>
       </a>
     </div>

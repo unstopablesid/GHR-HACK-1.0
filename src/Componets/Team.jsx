@@ -20,7 +20,7 @@ const teamMembers = [
     { name: "Vidya Baviskar", role: "Overall Coordinator", photo: Vidya ,Logo: Logo, linkedin: "https://www.linkedin.com/in/vidya-baviskar-0b1b3b1b7" },
     { name: "Mrunal Mahajan", role: "Overall Coordinator", photo: Mrunal,Logo: Logo ,linkedin: "https://www.linkedin.com/in/mrunal-mahajan-0b1b3b1b7" },
     { name: "Mayur Nikumbh", role: "Technical Head", photo: Mayur ,Logo: Logo ,linkedin: "https://www.linkedin.com/in/mayur-nikumbh"},
-    { name: "Neeraj Rakhicha", role: "Design Head", photo: Jain, linkedin: "https://www.linkedin.com/in/rohit-pitrubhakt-5a2737257" },
+    { name: "Neeraj Rakhecha", role: "Design Head", photo: Jain, linkedin: "https://www.linkedin.com/in/rohit-pitrubhakt-5a2737257" },
     { name: "Kartik deshmukh", role: "Design Head", photo: Kartik2, linkedin: "https://www.linkedin.com/in/rohit-pitrubhakt-5a2737257" },
     { name: "Bhavesh Kanhaiya", role: "Marketing Head", photo: Bhavesh ,Logo: Logo ,linkedin: "https://www.linkedin.com/in/bhavesh-kanhaiya-0b1b3b1b7" },
     { name: "Yashraj Patil", role: "Operations Head", photo: Yashraj ,Logo: Logo ,linkedin: "https://www.linkedin.com/in/bhavesh-kanhaiya-0b1b3b1b7" },
