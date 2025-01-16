@@ -76,7 +76,7 @@ background-image: url("../assets/images/Coral.png");
     color: #5731ff;    
   }
   .UseFull{
-    width: 1rem;
+    /* width: 1rem; */
     text-align: center;
     font-size: 2rem;
   }
