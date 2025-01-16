@@ -80,10 +80,10 @@ const Footer = () => {
 
           {/* Contact Us Section */}
           <div className="footer-contact text-center md:text-left text-xs md:text-sm">
-            <h3 className="text-lg md:text-xl font-semibold mb-4">Contact Us</h3>
+            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <p className="leading-relaxed">
               Gate No 57, Shirsoli Rd, <br />
-              Tambapura, Mohadi, Jalgaon <br />
+               Mohadi, Jalgaon <br />
               Maharashtra 425002
             </p>
             <div className="footer-socials flex justify-center md:justify-start mt-4 space-x-2">
@@ -94,7 +94,7 @@ const Footer = () => {
                 aria-label="X"
                 className="hover:text-orange-500"
               >
-                <i className="ri-twitter-x-line text-lg md:text-2xl"></i>
+                <i className="ri-twitter-x-fill text-lg  md:text-2xl"></i>
               </a>
               <a
                 href="https://www.instagram.com/ghrhack_1.0?igsh=MWlkYXdlMG12cXI2aw=="
@@ -113,6 +113,24 @@ const Footer = () => {
                 className="hover:text-orange-500"
               >
                 <i className="ri-linkedin-box-line text-lg md:text-2xl"></i>
+              </a>
+              <a
+                href="https://chat.whatsapp.com/L6iiU2v8Gt4KB1hobAVwpA"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Whatsapp"
+                className="hover:text-orange-500"
+              >
+                <i className="ri-whatsapp-fill text-lg md:text-2xl"></i>
+              </a>
+              <a
+                href="https://discord.gg/ecSMDvnQky"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Discord"
+                className="hover:text-orange-500"
+              >
+                <i className="ri-discord-fill text-lg md:text-2xl"></i>
               </a>
             </div>
           </div>
