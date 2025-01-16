@@ -51,13 +51,13 @@
 
 @media screen and (max-width: 768px) {
   .button-container{
-    margin-bottom: 5.4rem;
+    margin-bottom: 5.75rem;
   }
   
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 568px) {
   .button-container{
-    margin-bottom: 5.2rem;
+    margin-bottom: 2rem;
   }
   
 }
