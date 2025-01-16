@@ -87,13 +87,12 @@
   }
 
   .about-text h2 {
-    font-size: 1.75rem; /* Adjust heading size */
-    margin-bottom: 1rem; /* Adjust margin */
+    font-size: 1.75rem; 
+    margin-bottom: 1rem; 
   }
 
   .about-text p {
     font-size: 0.75rem;
-    /* text-align: right; */
-    padding-bottom: 1rem; /* Adjust paragraph size */
+    padding-bottom: 1rem; 
   }
 }

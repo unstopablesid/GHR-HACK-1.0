@@ -77,5 +77,6 @@ background-image: url("../assets/images/Coral.png");
   }
   .UseFull{
     width: 1rem;
+    text-align: center;
     font-size: 2rem;
   }
