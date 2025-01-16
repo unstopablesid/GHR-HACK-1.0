@@ -33,10 +33,10 @@ const EventHighlights = () => {
           <h2 className="text-white text-left text-2xl md:text-3xl lg:text-4xl mb-4">Event Highlights</h2>
           <ul className="space-y-4">
             <li>
-              <strong className="text-[#f5f5f5] text-xl md:text-2xl">Duration:</strong> 28 hours of non-stop innovation.
+              <strong className="text-[#f5f5f5] text-xl md:text-2xl">Duration:</strong> <span className="text-orange-500"> 28 hours </span> of non-stop innovation.
             </li>
             <li>
-              <strong className="text-[#f5f5f5] text-xl md:text-2xl">Tracks:</strong> EdTech Evolution,Blockchain Revolution,AI and Machine Learning,AR/VR Realities,HealthTech Innovations,Cybersecurity,Agritech,Social Impact Tech
+              <strong className="text-[#f5f5f5] text-xl md:text-2xl">Themes:</strong>EdTech Evolution,Blockchain Revolution,AI and Machine Learning,AR/VR Realities,HealthTech Innovations,Cybersecurity,Agritech,Social Impact Tech
             </li>
             <li>
               <strong className="text-[#f5f5f5] text-xl md:text-2xl">Networking Opportunities:</strong> Collaborate with industry experts, mentors, and peers.
