@@ -3,6 +3,7 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import Buttons from "./Buttons";
 import Banner from "./Banner";
+import BottomBanner from './BottomBanner'
 
 const Background = () => {
   return (
@@ -25,6 +26,8 @@ const Background = () => {
       {/* Navbar */}
       <Navbar />
       <Banner />
+      <BottomBanner />
+      
 
       {/* Home Component */}
       <div id="#home" className="relative z-10">

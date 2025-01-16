@@ -59,14 +59,15 @@
 /* Mobile styling */
 @media screen and (max-width: 768px) {
   .about-container {
-    padding: 2rem 1rem; /* 20px to rem */
+    padding: 7rem 3rem; /* 20px to rem */
     height: auto; /* Adjust height for smaller screens */
     transform: none; /* Remove 3D transformation */
     transition: none;
 
   }
-.Heading{
+.about-container h2{
   color: white;
+  text-align: center;
 }
   .about-content {
     flex-direction: column;
