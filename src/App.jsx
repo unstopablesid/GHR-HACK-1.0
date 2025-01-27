@@ -22,7 +22,6 @@ function App() {
     <AboutSection />
     <EventHighlights />
     <HackathonThemes />
-
     <PrizeCards />
     <RegistrationTimeline />
     <RegistrationDetails />
