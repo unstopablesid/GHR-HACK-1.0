@@ -29,7 +29,7 @@ const Contact = () => {
         if (res.success) {
             Swal.fire({
                 title: "Great",
-                text:"Your messege sent successfully",
+                text:"We Will reach You Shortly",
                 icon: "success",
                 draggable: true
               });
