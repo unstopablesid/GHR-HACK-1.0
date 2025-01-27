@@ -80,7 +80,10 @@ const Footer = () => {
 
           {/* Contact Us Section */}
           <div className="footer-contact text-center md:text-left text-xs md:text-sm">
-            <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
+            <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
+            <h3 className='text-white mb-2 '>Ghrhack01@gmail.com</h3>
+            <h3 className='text-white'>+91 7972053605</h3>
+            <h3 className='text-white mb-2 '>+91 8411906657</h3>
             <p className="leading-relaxed">
               Gate No 57, Shirsoli Rd, <br />
                Mohadi, Jalgaon <br />
