@@ -15,7 +15,7 @@ import Kartik2 from "../assets/Team/Kartik deshmukh.jpg"
 
 // Team data
 const teamMembers = [
-    { name: "Kartik Chaudhari", role: "Overall Coordinator", photo: Kartik , Logo: Logo ,linkedin: "linkedin.com/in/kartik-chaudhari-87ab52241" },
+    { name: "Kartik Chaudhari", role: "Overall Coordinator", photo: Kartik , Logo: Logo ,linkedin: "https://www.linkedin.com/in/kartik-chaudhari-87ab52241" },
     { name: "Kalpesh Borde", role: "Overall Coordinator", photo: Kalpesh, linkedin: "https://www.linkedin.com/in/kalpesh-borde-b18b76175/",Logo: Logo  },
     { name: "Vidya Baviskar", role: "Overall Coordinator", photo: Vidya ,Logo: Logo, linkedin: "https://www.linkedin.com/in/vidyabaviskar" },
     { name: "Mrunal Mahajan", role: "Overall Coordinator", photo: Mrunal,Logo: Logo ,linkedin: "https://www.linkedin.com/in/mrunal-mahajan-5a1651295/" },
