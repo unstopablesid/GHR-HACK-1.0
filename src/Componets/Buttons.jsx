@@ -28,6 +28,7 @@ const Buttons = () => {
       <a
         href="https://drive.google.com/file/d/1S7mwZKooS-e9aQOSpvauCAagQklKJH0H/view?usp=sharing"
         rel="noopener noreferrer"
+        target="_blank"
         className="button brochure-btn rounded-xl flex items-center justify-center w-full max-w-xs h-10 md:h-12 bg-green-600 text-white rounded"
       >
         
