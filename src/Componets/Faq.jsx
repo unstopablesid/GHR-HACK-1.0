@@ -7,7 +7,7 @@ const FAQ = () => {
   const faqs = [
     { question: "How do i register for the hackthon", answer: "Click on Register Here with Devfolio or Scan the QR on the website" },
     { question: "Is there any registration fees?", answer: "No,Registration is completely free" },
-    { question: "What is the ideal Team size", answer: "Team should be consist of 3-4 members" },
+    { question: "What is the ideal Team size", answer: "Team should be consist of 2-4 members" },
     { question: "Why should I participate in GHRhack 1.0?", answer: "Winners get cash prizes worth INR 80k+, and all participants will have excellent networking opportunities, learning new skills, and get cool swags." },
     { question: "Who can participate ?", answer: "The hackathon is open to all BE/Btech, BCA, MCA, BSc(CS), and postgraduate students as well." },
     { question: "When and How the team will be shortlisted?", answer: "The team shortlisting starts on 11th February 2025 on individuals resume, profile and innovative idea abstract provided by them." },
