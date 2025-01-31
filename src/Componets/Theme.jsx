@@ -7,6 +7,8 @@ import Iot from "../assets/ThemeLogo/AR.png";
 import Helthcare from "../assets/ThemeLogo/Healthcare.png";
 import Education from "../assets/ThemeLogo/Edtech.png";
 import Cyber from "../assets/ThemeLogo/cyber-security.png";
+import Agritech from "../assets/ThemeLogo/Agritech-removebg-preview.png";
+import Social from "../assets/ThemeLogo/Social-impact.png";
 
 
 
@@ -41,8 +43,18 @@ import Cyber from "../assets/ThemeLogo/cyber-security.png";
     },
     {
         icon: "machine-learning",
-        title: "Cybersecurity",
+        title: "social impact of cyber security",
         image: Cyber,
+    },
+    {
+        icon: "Agritech",
+        title: "Agritech",
+        image: Agritech,
+    },
+    {
+        icon: "Social Impact",
+        title: "Social Impact",
+        image: Social,
     },
 
     ];
@@ -78,17 +90,17 @@ import Cyber from "../assets/ThemeLogo/cyber-security.png";
             <h2 className="font-[Ghr4] text-5xl mb-12 text-center text-white">
             Hackathon Themes
             </h2>
-            <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 gap-8 items-cente justify-center">
+            <div className=" grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3 gap-8 items-cente justify-center">
             {themes.map((theme, index) => (
                 <div
                 key={index}
                 ref={(el) => (cardRefs.current[index] = el)} 
-            className="theme-card h-56 bg-gradient-to-r from-[#58B7E6] to-[#316680] rounded-lg p-6 flex flex-col items-center shadow-lg transition-transform transform hover:scale-105"
+                className="theme-card h-56 bg-gradient-to-r from-[#58B7E6] to-[#316680] rounded-lg p-6 flex flex-col items-center shadow-lg transition-transform transform hover:scale-110"
                 >
                 <img
                     src={theme.image}
                     alt={theme.title}
-                    className="w-52 h-24 object-contain mb-4"
+                    className="w-52 h-24 object-contain mb-4  "
                 />
                 <h3 className="text-xl font-semibold text-center">
                     {theme.title}
