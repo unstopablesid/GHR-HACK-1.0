@@ -6,8 +6,6 @@ import Ai from "../assets/ThemeLogo/Ai.png";
 import Iot from "../assets/ThemeLogo/AR.png";
 import Helthcare from "../assets/ThemeLogo/Healthcare.png";
 import Education from "../assets/ThemeLogo/Edtech.png";
-import Cloud from "../assets/ThemeLogo/Cloud.png";
-
 import Cyber from "../assets/ThemeLogo/cyber-security.png";
 
 
