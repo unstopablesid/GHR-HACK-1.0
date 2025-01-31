@@ -5,10 +5,9 @@ import Blockchain from "../assets/ThemeLogo/Blockchain.png";
 import Ai from "../assets/ThemeLogo/Ai.png";
 import Iot from "../assets/ThemeLogo/AR.png";
 import Helthcare from "../assets/ThemeLogo/Healthcare.png";
-import Ml from "../assets/ThemeLogo/machineLearning.png";
+import Education from "../assets/ThemeLogo/Edtech.png";
 import Cloud from "../assets/ThemeLogo/Cloud.png";
-import Agritech from "../assets/ThemeLogo/Agritech.png";
-import Social from "../assets/ThemeLogo/social.png";
+
 import Cyber from "../assets/ThemeLogo/cyber-security.png";
 
 
@@ -20,11 +19,11 @@ import Cyber from "../assets/ThemeLogo/cyber-security.png";
     {
         icon: "cloud-computing",
         title: "EdTech Evolution",
-        image:Cloud, 
+        image: Education, 
     },
     {
         icon: "education",
-        title: "Blockchain Revolution",
+        title: "Web3/Blockchain",
         image: Blockchain,
     },
     {
@@ -47,16 +46,7 @@ import Cyber from "../assets/ThemeLogo/cyber-security.png";
         title: "Cybersecurity",
         image: Cyber,
     },
-    {
-        icon: "Cyber",
-        title: "Agritech",
-        image: Agritech,
-    },
-    {
-        icon: "machine-learning",
-        title: "Social Impact Tech",
-        image:Social,
-    },
+
     ];
 
     const HackathonThemes = () => {
