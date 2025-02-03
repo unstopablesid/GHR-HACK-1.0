@@ -43,7 +43,7 @@ import Social from "../assets/ThemeLogo/Social-impact.png";
     },
     {
         icon: "machine-learning",
-        title: "social impact of cyber security",
+        title: "Cyber security",
         image: Cyber,
     },
     {
