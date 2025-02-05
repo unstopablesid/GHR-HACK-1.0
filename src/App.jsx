@@ -12,6 +12,7 @@ import EventHighlights from './Componets/EventHeightlight'
 import Background from './Componets/Background'
 import HackathonThemes from './Componets/Theme'
 import RegistrationTimeline from './Componets/Timeline'
+import Video from './Componets/Video'
 
 
 
@@ -25,6 +26,7 @@ function App() {
     <PrizeCards />
     <RegistrationTimeline />
     <RegistrationDetails />
+    <Video/>
     <Sponsors />
     <Team />
     <FAQ />
