@@ -51,7 +51,7 @@ const teamData = {
   ],
   Technical: [
     { name: "Mayur Nikumbh", role: "Team Leader", photo: Mayur, linkedin: "#" },
-    { name: "Lokesh Salunkhe", role: "Member", photo: Lokesh, linkedin: "#" },
+    { name: "Lokesh Sapkale", role: "Member", photo: Lokesh, linkedin: "#" },
     { name: "Khushi Chari", role: "Member", photo: Khushi, linkedin: "https://www.linkedin.com/in/khushichhari" },
     { name: "Omkar Dolhare", role: "Member", photo: Omkaar, linkedin: "https://www.linkedin.com/in/omkar-dolhare-24760b2b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "Himanshu Kawle", role: "Member", photo: Himanshu, linkedin: "#" },
@@ -67,8 +67,8 @@ const teamData = {
 Marketing: [
   { name: "Bhavesh Kanhaiya", role: "Team leader", photo: Bhaveshk, linkedin: "https://www.linkedin.com/in/bhavesh-kanhaiya-689b65217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   { name: "Shivani Deshpande", role: "Co-leader", photo: Shivani, linkedin: "https://www.linkedin.com/in/shivani-deshpande-507355341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
-  { name: "Aditi patil", role: "Member", photo: Aditi, linkedin: "#" },
   { name: "Lokesh Salunkhe", role: "Member", photo: Lokesh2, linkedin: "#" },
+  { name: "Aditi patil", role: "Member", photo: Aditi, linkedin: "#" },
   { name: "Purva Tiwari", role: "Member", photo: Purva, linkedin: "https://www.linkedin.com/in/purva-tiwari-4b97b1297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   { name: "Leena chaudhari", role: "Member", photo: Leena, linkedin: "https://www.linkedin.com/in/leena-chaudhari-a14b17342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   { name: "Sakshi Nimbalkar", role: "Member", photo: Sakshi, linkedin: "https://www.linkedin.com/in/sakshi-nimbalkar-7770532a2" },
@@ -102,22 +102,22 @@ const Team = () => {
     <section id="Team" className="team-section">
       <h2 className="team-title">Meet Our Team</h2>
 
-      {/* Tabs */}
-      <div className="tabs-container">
+    
+      <div className="tabs-container mb-2 flex flex-wrap justify-center">
         {Object.keys(teamData).map((category) => (
           <button
             key={category}
             onClick={() => setActiveTab(category)}
             className={`tab-button ${
               activeTab === category ? "active-tab" : ""
-            }`}
+            } m-2 sm:mb-8 text-sm bg-blue-500 text-white rounded-md hover:bg-blue-700`}
           >
             {category}
           </button>
         ))}
       </div>
 
-      {/* Team Members */}
+   
       <div className="team-container">
         {teamData[activeTab].map((member, index) => (
           <div key={index} className="team-card">
