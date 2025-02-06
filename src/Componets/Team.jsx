@@ -50,7 +50,7 @@ const teamData = {
     { name: "Mrunal Mahajan", role: "Overall Coordinator", photo: Mrunal, linkedin: "https://www.linkedin.com/in/mrunal-mahajan-5a1651295/" },
   ],
   Technical: [
-    { name: "Mayur Nikumbh", role: "Team Leader", photo: Mayur, linkedin: "#" },
+    { name: "Mayur Nikumbh", role: "Team Leader", photo: Mayur, linkedin: "https://www.linkedin.com/in/mayur-nikumbh" },
     { name: "Lokesh Sapkale", role: "Member", photo: Lokesh, linkedin: "#" },
     { name: "Khushi Chari", role: "Member", photo: Khushi, linkedin: "https://www.linkedin.com/in/khushichhari" },
     { name: "Omkar Dolhare", role: "Member", photo: Omkaar, linkedin: "https://www.linkedin.com/in/omkar-dolhare-24760b2b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
@@ -68,7 +68,7 @@ Marketing: [
   { name: "Bhavesh Kanhaiya", role: "Team leader", photo: Bhaveshk, linkedin: "https://www.linkedin.com/in/bhavesh-kanhaiya-689b65217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   { name: "Shivani Deshpande", role: "Co-leader", photo: Shivani, linkedin: "https://www.linkedin.com/in/shivani-deshpande-507355341?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   { name: "Lokesh Salunkhe", role: "Member", photo: Lokesh2, linkedin: "#" },
-  { name: "Aditi patil", role: "Member", photo: Aditi, linkedin: "#" },
+  { name: "Aditi patil", role: "Member", photo: Aditi, linkedin: "https://www.linkedin.com/in/aditi-patil-23b613258" },
   { name: "Purva Tiwari", role: "Member", photo: Purva, linkedin: "https://www.linkedin.com/in/purva-tiwari-4b97b1297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   { name: "Leena chaudhari", role: "Member", photo: Leena, linkedin: "https://www.linkedin.com/in/leena-chaudhari-a14b17342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
   { name: "Sakshi Nimbalkar", role: "Member", photo: Sakshi, linkedin: "https://www.linkedin.com/in/sakshi-nimbalkar-7770532a2" },
