@@ -39,11 +39,13 @@ import Lokesh2 from "../assets/Team/Lokesh Salunkhe.jpg";
 import Himanshu from "../assets/Team/Himanshu.png";
 import Disha from "../assets/Team/Disha.jpg";
 import Litesh from "../assets/Team/Litesh.jpg";
+import Dipesh from "../assets/Team/Dipesh Fuse.jpg";
+import RohitM from "../assets/Team/Rohit Mahajan.jpg";
 
 
 // Team data grouped by category
 const teamData = {
-  Organizer: [
+   Lead_Organizer: [
     { name: "Kartik Chaudhari", role: "Overall Coordinator", photo: Kartik, linkedin: "https://www.linkedin.com/in/kartik-chaudhari-87ab52241" },
     { name: "Kalpesh Borde", role: "Overall Coordinator", photo: Kalpesh, linkedin: "https://www.linkedin.com/in/kalpesh-borde-b18b76175/" },
     { name: "Vidya Baviskar", role: "Overall Coordinator", photo: Vidya, linkedin: "https://www.linkedin.com/in/vidyabaviskar" },
@@ -62,7 +64,9 @@ const teamData = {
     { name: "Neeraj Rakhecha", role: "Design Leader", photo: Neeraj, linkedin: "https://www.linkedin.com/in/neeraj-rakhecha-084b85316" },
     { name: "Kartik Deshmukh", role: "Co-leader", photo: KartikD, linkedin: "#" },
     { name: "Bhumika Ingle", role: "Member", photo: Bhumika, linkedin: "www.linkedin.com/in/bhumika-ingale-83209531b" },
-    { name: "Anushka", role: "Member", photo: Anushka, linkedin: "https://www.linkedin.com/in/anushka-anasane-33202629b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+    { name: "Anushka Anasane", role: "Member", photo: Anushka, linkedin: "https://www.linkedin.com/in/anushka-anasane-33202629b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
+    { name: "Dipesh Fuse", role: "Member", photo: Dipesh, linkedin: ""},
+    { name: "Rohit Mahajan", role: "Member", photo: RohitM, linkedin: "https://www.linkedin.com/in/rohit-mahajan-585a22340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
 ],
 Marketing: [
   { name: "Bhavesh Kanhaiya", role: "Team leader", photo: Bhaveshk, linkedin: "https://www.linkedin.com/in/bhavesh-kanhaiya-689b65217?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
@@ -96,7 +100,7 @@ Marketing: [
 };
 
 const Team = () => {
-  const [activeTab, setActiveTab] = useState("Organizer"); // Default tab
+  const [activeTab, setActiveTab] = useState("Lead_Organizer"); 
 
   return (
     <section id="Team" className="team-section">
