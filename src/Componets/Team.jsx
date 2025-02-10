@@ -45,7 +45,7 @@ import RohitM from "../assets/Team/Rohit Mahajan.jpg";
 
 // Team data grouped by category
 const teamData = {
-   Lead_Organizer: [
+   Organizers: [
     { name: "Kartik Chaudhari", role: "Overall Coordinator", photo: Kartik, linkedin: "https://www.linkedin.com/in/kartik-chaudhari-87ab52241" },
     { name: "Kalpesh Borde", role: "Overall Coordinator", photo: Kalpesh, linkedin: "https://www.linkedin.com/in/kalpesh-borde-b18b76175/" },
     { name: "Vidya Baviskar", role: "Overall Coordinator", photo: Vidya, linkedin: "https://www.linkedin.com/in/vidyabaviskar" },
@@ -100,7 +100,7 @@ Marketing: [
 };
 
 const Team = () => {
-  const [activeTab, setActiveTab] = useState("Lead_Organizer"); 
+  const [activeTab, setActiveTab] = useState("Organizers"); 
 
   return (
     <section id="Team" className="team-section">
