@@ -13,7 +13,7 @@ import Background from './Componets/Background'
 import HackathonThemes from './Componets/Theme'
 import RegistrationTimeline from './Componets/Timeline'
 import Video from './Componets/Video'
-
+import { Analytics } from "@vercel/analytics/react"
 
 
 function App() {
@@ -32,6 +32,7 @@ function App() {
     <FAQ />
     <Contact />
     <Footer />
+    <Analytics/>
     </div>
   )
 }
