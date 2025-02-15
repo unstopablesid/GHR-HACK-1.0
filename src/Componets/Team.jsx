@@ -10,7 +10,7 @@ const Team = () => {
     setLoading(true);
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 500); // Simulated loading effect
+    }, 1500); // Simulated loading effect
     return () => clearTimeout(timer);
   }, [activeTab]);
 
