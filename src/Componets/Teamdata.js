@@ -91,7 +91,7 @@ Marketing: [
   Logistic: [
     { name: "Krunal Badgujar", role: "Logistics Head", photo: Krunal, linkedin: "" },
     { name: "Jayesh Mahajan", role: "Member", photo: Jayesh, linkedin: "" },
-    { name: "Gaurav mahajan", role: "Member", photo: Ghaurav, linkedin: "" },
+    { name: "Gaurav Mahajan", role: "Member", photo: Ghaurav, linkedin: "" },
     { name: "Shreyash Ahhirao", role: "Member", photo: Shreyash, linkedin: "" },
   ],
   Operations: [
