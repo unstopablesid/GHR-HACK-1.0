@@ -57,7 +57,7 @@ export const teamData = {
   Technical: [
     { name: "Mayur Nikumbh", role: "Team Leader", photo: Mayur, linkedin: "https://www.linkedin.com/in/mayur-nikumbh" },
     { name: "Lokesh Sapkale", role: "Member", photo: Lokesh, linkedin: "#" },
-    { name: "Khushi Chari", role: "Member", photo: Khushi, linkedin: "https://www.linkedin.com/in/khushichhari" },
+    { name: "Khushi Chhari", role: "Member", photo: Khushi, linkedin: "https://www.linkedin.com/in/khushichhari" },
     { name: "Omkar Dolhare", role: "Member", photo: Omkaar, linkedin: "https://www.linkedin.com/in/omkar-dolhare-24760b2b1?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "Himanshu Kawle", role: "Member", photo: Himanshu, linkedin: "#" },
     { name: "Mohit Sharma", role: "Member", photo: Mohit, linkedin: "https://www.linkedin.com/in/mr-mohit-sharma-541167297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
