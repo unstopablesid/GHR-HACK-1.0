@@ -55,7 +55,7 @@ export const teamData = {
     { name: "Mrunal Mahajan", role: "Overall Coordinator", photo: Mrunal, linkedin: "https://www.linkedin.com/in/mrunal-mahajan-5a1651295/" },
   ],
   Technical: [
-    { name: "Mayur Nikumbh", role: "Tech Head", photo: Mayur, linkedin: "https://www.linkedin.com/in/mayur-nikumbh" },
+    { name: "Mayur Nikumbh", role: "Technical Head", photo: Mayur, linkedin: "https://www.linkedin.com/in/mayur-nikumbh" },
     { name: "Lokesh Sapkale", role: "Member", photo: Lokesh, linkedin: "" },
     { name: "Khushi Chhari", role: "Member", photo: Khushi, linkedin: "" },
     { name: "Omkar Dolhare", role: "Member", photo: Omkaar, linkedin: "" },
