@@ -55,7 +55,7 @@ export const teamData = {
     { name: "Mrunal Mahajan", role: "Overall Coordinator", photo: Mrunal, linkedin: "https://www.linkedin.com/in/mrunal-mahajan-5a1651295/" },
   ],
   Technical: [
-    { name: "Mayur Nikumbh", role: "Team Lead", photo: Mayur, linkedin: "https://www.linkedin.com/in/mayur-nikumbh" },
+    { name: "Mayur Nikumbh", role: "Tech Head", photo: Mayur, linkedin: "https://www.linkedin.com/in/mayur-nikumbh" },
     { name: "Lokesh Sapkale", role: "Member", photo: Lokesh, linkedin: "" },
     { name: "Khushi Chhari", role: "Member", photo: Khushi, linkedin: "" },
     { name: "Omkar Dolhare", role: "Member", photo: Omkaar, linkedin: "" },
@@ -64,15 +64,15 @@ export const teamData = {
 
   ],
   Design: [
-    { name: "Neeraj Rakhecha", role: "Design Lead", photo: Neeraj, linkedin: "" },
-    { name: "Kartik Deshmukh", role: "Design Lead", photo: KartikD, linkedin: "" },
+    { name: "Neeraj Rakhecha", role: "Design Head", photo: Neeraj, linkedin: "" },
+    { name: "Kartik Deshmukh", role: "Design Head", photo: KartikD, linkedin: "" },
     { name: "Bhumika Ingale", role: "Member", photo: Bhumika, linkedin: "" },
     { name: "Anushka Anasane", role: "Member", photo: Anushka, linkedin: "" },
     { name: "Dipesh Fuse", role: "Member", photo: Dipesh, linkedin: ""},
     { name: "Rohit Mahajan", role: "Member", photo: RohitM, linkedin: "" },
 ],
 Marketing: [
-  { name: "Bhavesh Kanhaiya", role: "Team Lead", photo: Bhaveshk, linkedin: "" },
+  { name: "Bhavesh Kanhaiya", role: "Marketing Head", photo: Bhaveshk, linkedin: "" },
   { name: "Shivani Deshpande", role: "Member", photo: Shivani, linkedin: "" },
   { name: "Lokesh Salunkhe", role: "Member", photo: Lokesh2, linkedin: "" },
   { name: "Aditi patil", role: "Member", photo: Aditi, linkedin: "" },
@@ -84,18 +84,18 @@ Marketing: [
 
 ],
   Finance: [
-    { name: "Shreyash Badgujar", role: "Team Lead", photo: ShreyadhB, linkedin: "" },
+    { name: "Shreyash Badgujar", role: "Finance Head", photo: ShreyadhB, linkedin: "" },
     { name: "Rohit Pitrubhakt", role: "Member", photo: Rohit, linkedin: "" },
     { name: "Gautami Upasani", role: "Member", photo: Gautami, linkedin: "" },
   ],
   Logistic: [
-    { name: "Krunal Badgujar", role: "Team Lead", photo: Krunal, linkedin: "" },
+    { name: "Krunal Badgujar", role: "Logistics Head", photo: Krunal, linkedin: "" },
     { name: "Jayesh Mahajan", role: "Member", photo: Jayesh, linkedin: "" },
     { name: "Gaurav mahajan", role: "Member", photo: Ghaurav, linkedin: "" },
     { name: "Shreyash Ahhirao", role: "Member", photo: Shreyash, linkedin: "" },
   ],
   Operations: [
-    { name: "Yashraj Patil", role: "Team Lead", photo: Yash, linkedin: "" },
+    { name: "Yashraj Patil", role: "Operation Head", photo: Yash, linkedin: "" },
     { name: "Shravni Kasar", role: "Member", photo: Shravni, linkedin: "" },
     { name: "Disha Suryavanshi", role: "Member", photo: Disha, linkedin: "" },
     { name: "Litesh Nannaware ", role: "Member", photo: Litesh, linkedin: "" },
