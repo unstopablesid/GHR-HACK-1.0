@@ -65,8 +65,8 @@ export const teamData = {
   ],
   Design: [
     { name: "Neeraj Rakhecha", role: "Design Leader", photo: Neeraj, linkedin: "https://www.linkedin.com/in/neeraj-rakhecha-084b85316" },
-    { name: "Kartik Deshmukh", role: "Co-leader", photo: KartikD, linkedin: "#" },
-    { name: "Bhumika Ingle", role: "Member", photo: Bhumika, linkedin: "www.linkedin.com/in/bhumika-ingale-83209531b" },
+    { name: "Kartik Deshmukh", role: "Design Leader", photo: KartikD, linkedin: "#" },
+    { name: "Bhumika Ingale", role: "Member", photo: Bhumika, linkedin: "www.linkedin.com/in/bhumika-ingale-83209531b" },
     { name: "Anushka Anasane", role: "Member", photo: Anushka, linkedin: "https://www.linkedin.com/in/anushka-anasane-33202629b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
     { name: "Dipesh Fuse", role: "Member", photo: Dipesh, linkedin: ""},
     { name: "Rohit Mahajan", role: "Member", photo: RohitM, linkedin: "https://www.linkedin.com/in/rohit-mahajan-585a22340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" },
