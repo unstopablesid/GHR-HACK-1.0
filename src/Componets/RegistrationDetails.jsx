@@ -64,9 +64,9 @@ const RegistrationDetails = () => {
                         <div className="bg-white rounded-full p-8 mb-4 w-64 h-64 flex justify-center items-center mt-10">
                             <i className="fas fa-dollar-sign text-black text-9xl"></i>
                         </div>
-                        <h2 className="text-2xl  text-white">No Fees</h2>
+                        <h2 className="text-2xl  text-white">No Registration Fees</h2>
                         <p>Free registration for all</p>
-                        <p>Participants</p>
+                        <p>Participants*</p>
                     </div>
                     <div className="text-8xl text-white">
                         <i className="fas fa-chevron-right"></i>
