@@ -5,13 +5,13 @@ const Footer = () => {
   return (
     <div className="bg-[#011947] min-h-[50vh] ">
       <footer className="footer bg-black bg-opacity-30  text-white px-3 py-8">
-        <div className="footer-container max-w-7xl min-h-[50vh]  mx-auto flex flex-col md:flex-row justify-between items-center md:items-start space-y-8 md:space-y-0">
+        <div className="footer-container max-w-7xl min-h-[35vh]  mx-auto flex flex-col md:flex-row justify-between items-center md:items-start space-y-8 md:space-y-0">
           {/* Logo and About Section */}
           <div className="footer-about text-center md:text-left text-xs md:text-sm">
             <h1 className="font-bold text-xl md:text-3xl mb-4">
               <span className="text-orange-500">GHR </span> HACK
             </h1>
-            <p className="leading-relaxed">
+            <p className="leading-relaxed text-xl md:text-sm">
               <strong>GHR-HACK</strong>, a groundbreaking hackathon by{" "}
               <strong>GHRCEM JALGAON</strong>, redefines creativity and technology. Join us in the
               pursuit of innovation, transcending traditional hackathons.
@@ -81,7 +81,7 @@ const Footer = () => {
           {/* Contact Us Section */}
           <div className="footer-contact text-center md:text-left text-xs md:text-sm">
             <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
-            <h3 className='text-white mb-2 '>Ghrhack01@gmail.com</h3>
+            <h3 className='text-white mb-2 '>hackathon@ghrcemj.raisoni.net</h3>
             <h3 className='text-white'>+91 7972053605</h3>
             <h3 className='text-white mb-2 '>+91 8411906657</h3>
             <p className="leading-relaxed">
@@ -89,16 +89,7 @@ const Footer = () => {
                Mohadi, Jalgaon <br />
               Maharashtra 425002
             </p>
-            <div className="footer-socials flex justify-center md:justify-start mt-4 space-x-2">
-              <a
-                href="https://x.com/Mayur_nikumbh07"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="X"
-                className="hover:text-orange-500"
-              >
-                <i className="ri-twitter-x-fill text-lg  md:text-2xl"></i>
-              </a>
+            <div className="footer-socials flex justify-center md:justify-start mt-4 space-x-2 gap-[10px]">
               <a
                 href="https://www.instagram.com/ghrhack_1.0?igsh=MWlkYXdlMG12cXI2aw=="
                 target="_blank"
