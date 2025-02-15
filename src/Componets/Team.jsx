@@ -18,7 +18,7 @@ const Team = () => {
     <section id="Team" className="team-section bg-gradient-to-b from-[#014EB6] to-[#011947] p-6">
       <h2 className="text-center text-white text-3xl font-[Ghr4] mb-6">Meet Our Team</h2>
 
-      {/* Tabs */}
+
       <div className="flex flex-wrap justify-center gap-3 mb-6">
         {Object.keys(teamData).map((category) => (
           <button
@@ -26,8 +26,8 @@ const Team = () => {
             onClick={() => setActiveTab(category)}
             className={`px-5 py-2 text-sm font-semibold rounded-full transition-all duration-300 ${
               activeTab === category
-                ? "bg-white text-black shadow-md"
-                : "bg-gray-100 text-black hover:bg-gray-300"
+                ? "bg-black text-white shadow-md"
+                : "bg-white text-black hover:bg-gray-300"
             }`}
           >
             {category}
@@ -35,7 +35,7 @@ const Team = () => {
         ))}
       </div>
 
-      {/* Loading Animation */}
+
       {loading ? (
         <div className="flex justify-center items-center h-32">
           <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-blue-500"></div>
