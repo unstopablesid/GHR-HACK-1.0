@@ -12,7 +12,7 @@ const FAQ = () => {
     { question: "Who can participate ?", answer: "The hackathon is open to all BE/Btech, BCA, MCA, BSc(CS), and postgraduate students as well." },
     { question: "When and How the team will be shortlisted?", answer: "The team shortlisting starts on 11th February 2025 on individuals resume, profile and innovative idea abstract provided by them." },
     { question: "Does the hackathon include accomodation and meals for the participants?", answer: "Yes, accomodation and meals for 2 days are provided free of cost for all participants." },
-    { question: "Does GHR-HACK provide Internet facility during hackathon?", answer: "Yes, we provide a high-speed internet connection for all participants." },
+    { question: "Does GHRhack provide Internet facility during hackathon?", answer: "Yes, we provide a high-speed internet connection for all participants." },
     
 
   ];
