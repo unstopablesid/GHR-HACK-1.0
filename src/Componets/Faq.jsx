@@ -24,7 +24,7 @@ const FAQ = () => {
   return (
     <div id="FAQ" className="faq  bg-[#011947]">
     <div className="faq-container bg-[#011947]">
-       <h1 className="text-center font-[Ghr4] uppercase leading-[1] text-4xl text-white">FAQ'<span className="lowercase">s</span></h1>
+       <h1 className="text-center font-[Ghr4] uppercase leading-[1] mt-16 mb-10 text-4xl text-white">FAQ'<span className="lowercase">s</span></h1>
       <ul className="faq-list cursor2">
         {faqs.map((faq, index) => (
           <li key={index} className={`faq-item ${openIndex === index ? "open" : ""}`}>
