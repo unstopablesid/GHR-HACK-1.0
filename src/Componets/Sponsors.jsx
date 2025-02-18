@@ -2,7 +2,9 @@
 import DevfolioLogo from "../assets/Sponser/DEVFOLIO.jpg";
 
 import Polygon from '../assets/Sponser/Polygon.jpg';
+import Quillai from '../assets/Sponser/QuillAI.jpg';
 import ETH from '../assets/Sponser/ETHindia.jpg';
+import info from '../assets/Sponser/Info Planet White Logo A.png';
 
 const Sponsors = () => {
   return (
@@ -26,7 +28,15 @@ const Sponsors = () => {
             <img src={Polygon} alt="POLYGON LOGO" className="mx-auto w-[20rem] rounded-xl" />
           </div>
         </div>
+        <div className="mt-16 align-center justify-center text-center font-[Ghr4]">
+          <h3 className="text-3xl font-semibold text-center mb-6">Education Partners</h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-1 gap-4 md:px-10">
+            <img src={Quillai} alt="LOGO" className=" mx-auto w-[20rem] rounded-xl " />
+            <img src={info} alt="LOGO" className=" mx-auto w-[10rem] rounded-xl " />
+          </div>
+        </div>
       </div>
+      
 
   );
 };
