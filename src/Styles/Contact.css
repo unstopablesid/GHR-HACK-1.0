@@ -6,7 +6,7 @@
 
 } */
 .Cursor2 {
-    cursor: pointer;
+    /* cursor: text; */
     transition: all 0.3s ease-in-out;
 }
 
