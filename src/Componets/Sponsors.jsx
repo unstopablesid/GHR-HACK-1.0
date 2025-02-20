@@ -36,13 +36,13 @@ const Sponsors = () => {
             
           </div>
         </div>
-        <div className="mt-16 align-center justify-center text-center font-[Ghr4]">
+        {/* <div className="mt-16 align-center justify-center text-center font-[Ghr4]">
           <h3 className="text-3xl font-semibold text-center mb-6">Community Partners</h3>
           <div className="grid md:grid-cols-2 lg:grid-cols-1 gap-4 md:px-10">
           <img src={TheDevArmy} alt="TheDevArmy" className=" mx-auto w-[10rem] rounded-xl " />
             
           </div>
-        </div>
+        </div> */}
         
       </div>
       
