@@ -15,8 +15,9 @@ const Team = () => {
   }, [activeTab]);
 
   return (
+
     <section id="Team" className="team-section bg-gradient-to-b from-[#014EB6] to-[#011947] p-6">
-      <h2 className="text-center text-white text-3xl font-[Ghr4] mb-6">Meet Our Team</h2>
+      <h2 className="text-center text-white text-5xl font-[Ghr4] mb-6">Meet Our Team</h2>
 
 
       <div className="flex flex-wrap justify-center gap-3 mb-6">

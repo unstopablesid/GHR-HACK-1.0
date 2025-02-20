@@ -14,6 +14,7 @@ import HackathonThemes from './Componets/Theme'
 import RegistrationTimeline from './Componets/Timeline'
 import Video from './Componets/Video'
 import { Analytics } from "@vercel/analytics/react"
+import Mentors from './Componets/Mentors'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
     <RegistrationDetails />
     <Video/>
     <Sponsors />
+    <Mentors/>
     <Team />
     <FAQ />
     <Contact />

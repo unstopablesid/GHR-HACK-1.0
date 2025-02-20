@@ -18,7 +18,7 @@ import Khushi from "../assets/Team/khushi chhari.jpg";
 import Krunal from "../assets/Team/Krunal-Badgujar.png";
 import Leena from "../assets/Team/Leena Chaudhari.jpg";
 import Neeraj from "../assets/Team/Neeraj.jpg";
-import Piyush from "../assets/Team/Piyush Salunkhe.jpg";
+
 import Prathmesh from "../assets/Team/Prathamesh Misar.jpeg";
 import Purva from "../assets/Team/Purva Tiwari.jpeg";
 import Rohit from "../assets/Team/Rohit-pitrubhakt.jpg";
@@ -36,7 +36,9 @@ import Disha from "../assets/Team/Disha.jpg";
 import Litesh from "../assets/Team/Litesh.jpg";
 import Dipesh from "../assets/Team/Dipesh Fuse.jpg";
 import RohitM from "../assets/Team/Rohit Mahajan.jpg";
-
+import Bhagyesh from "../assets/Team/BhageshChaudhari.jpg";
+import Rutuja from "../assets/Team/RutujaPatil.jpg";
+import PiyushSalunkhe from "../assets/Team/PiyushSalunkhe.jpg";
 
 // The `teamData` object contains information about the team members categorized by their roles.
 // Each category (e.g., Organizers, Technical) is an array of objects where each object represents a team member.
@@ -70,17 +72,20 @@ export const teamData = {
     { name: "Anushka Anasane", role: "Member", photo: Anushka, linkedin: "" },
     { name: "Dipesh Fuse", role: "Member", photo: Dipesh, linkedin: ""},
     { name: "Rohit Mahajan", role: "Member", photo: RohitM, linkedin: "" },
+    { name: "Bhagyesh Chaudhari", role: "Member", photo: Bhagyesh, linkedin: "" },
 ],
 Marketing: [
   { name: "Bhavesh Kanhaiya", role: "Marketing Head", photo: Bhaveshk, linkedin: "" },
   { name: "Shivani Deshpande", role: "Member", photo: Shivani, linkedin: "" },
-  { name: "Lokesh Salunkhe", role: "Member", photo: Lokesh2, linkedin: "" },
+  { name: "Lokesh Sapkale", role: "Member", photo: Lokesh2, linkedin: "" },
   { name: "Aditi patil", role: "Member", photo: Aditi, linkedin: "" },
   { name: "Purva Tiwari", role: "Member", photo: Purva, linkedin: "" },
   { name: "Leena chaudhari", role: "Member", photo: Leena, linkedin: "" },
   { name: "Sakshi Nimbalkar", role: "Member", photo: Sakshi, linkedin: "" },
   { name: "Prathmesh Misar", role: "Member", photo: Prathmesh, linkedin: "" },
   { name: "Bhavesh Chaudhari", role: "Member", photo: Bhavesh, linkedin: "" },
+  { name: "Piyush Salunkhe", role: "Member", photo: PiyushSalunkhe, linkedin: "" },
+  { name: "Rutuja Patil", role: "Member", photo: Rutuja, linkedin: "" },
 
 ],
   Finance: [
