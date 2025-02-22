@@ -40,6 +40,12 @@ import Bhagyesh from "../assets/Team/BhageshChaudhari.jpg";
 import Rutuja from "../assets/Team/RutujaPatil.jpg";
 import PiyushSalunkhe from "../assets/Team/PiyushSalunkhe.jpg";
 
+
+import Sanjay from "../assets/Mentors/Snajay Shekhawat.jpeg";
+import Sonal from "../assets/Mentors/Sonal-Patil.jpeg";
+import shreyas from "../assets/Mentors/shreyas-raisoni.jpeg";
+import Sunil from "../assets/Mentors/Sunil-Raisoni.jpeg"
+
 // The `teamData` object contains information about the team members categorized by their roles.
 // Each category (e.g., Organizers, Technical) is an array of objects where each object represents a team member.
 // Each team member object includes the following properties:
