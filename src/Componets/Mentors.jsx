@@ -5,6 +5,7 @@ import Sonal from "../assets/Mentors/Sonal-Patil.jpeg";
 import shreyas from "../assets/Mentors/shreyas-raisoni.jpeg";
 import Sunil from "../assets/Mentors/Sunil-Raisoni.jpeg"
 import Preeti from "../assets/Mentors/Preeti-Agarwal.jpeg";
+import Swati from "../assets/Mentors/Swati patil.jpg";
 
 const Mentors = () => {
   return (
@@ -42,6 +43,7 @@ const Mentors = () => {
             <img src={Sonal} alt="Shreyas Raisoni" className="mx-auto justify-center rounded-full mb-2 w-[18rem]" />
             <p className="font-semibold text-xl">Dr Sonal Patil</p>
             <p>HoD, CSE/IT Department</p>
+            <img src={Swati} alt="Shreyas Raisoni" className="mx-auto justify-center rounded-full mb-2 w-[18rem]" />
             <p className="font-semibold text-xl mt-2">Dr Swati Patil</p>
             <p>HoD, AI/DS/AIML Department</p>
           </div>
