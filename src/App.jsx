@@ -15,9 +15,25 @@ import RegistrationTimeline from './Componets/Timeline'
 import Video from './Componets/Video'
 import { Analytics } from "@vercel/analytics/react"
 import Mentors from './Componets/Mentors'
+import Lenis from 'lenis'
+
+
+
 
 
 function App() {
+  const lenis = new Lenis();
+
+  // Use requestAnimationFrame to continuously update the scroll
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+    }
+    
+    requestAnimationFrame(raf);
+
+  
+
   return (
     <div className='App' >
     <Background />
