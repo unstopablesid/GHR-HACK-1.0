@@ -39,6 +39,7 @@ import RohitM from "../assets/Team/Rohit Mahajan.jpg";
 import Bhagyesh from "../assets/Team/BhageshChaudhari.jpg";
 import Rutuja from "../assets/Team/RutujaPatil.jpg";
 import PiyushSalunkhe from "../assets/Team/PiyushSalunkhe.jpg";
+import Gauravp from "../assets/Team/GauravPatil.jpg";
 
 
 
@@ -95,6 +96,7 @@ Marketing: [
   ],
   Operations: [
     { name: "Yashraj Patil", role: "Operation Head", photo: Yash, linkedin: "" },
+    { name: "Gaurav Patil", role: "Member", photo: Gauravp, linkedin: "" },
     { name: "Shravni Kasar", role: "Member", photo: Shravni, linkedin: "" },
     { name: "Disha Suryavanshi", role: "Member", photo: Disha, linkedin: "" },
     { name: "Litesh Nannaware ", role: "Member", photo: Litesh, linkedin: "" },
