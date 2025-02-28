@@ -85,7 +85,7 @@ import Social from "../assets/ThemeLogo/Social-impact.png";
         }, []);
 
     return (
-        <section id="Theme" className="font-[Ghr4] bg-gradient-to-t to-[#0e7490] from-[#014EB6] text-white py-16  ">
+        <section id="Theme" className="font-[Ghr4]  text-white py-16  " style={{backgroundColor: "#0681a3"}}>
         <div className="container mx-auto px-4 ">
             <h2 className="font-[Ghr4] text-5xl mb-12 text-center text-white">
             Hackathon Themes

@@ -3,7 +3,7 @@
   display: flex;
   justify-content:center;
   align-items: right;
-  background: linear-gradient(to bottom,#00A6D2, #0e7490 );
+  background: linear-gradient(to bottom, #089dc7, #0589ae);
   padding: 3.125rem; /* 50px to rem */
   height: 100vh; /* Full screen height */
   /* perspective: 1200px; Add depth for 3D effect */
@@ -20,8 +20,8 @@
 }
 
 .about-image {
-  max-width: 18.75rem; /* 300px to rem */
-  margin-right: 1.875rem; /* 30px to rem */
+  max-width: 20.75rem; /* 300px to rem */
+  margin-right: 70px; /* 30px to rem */
   transition: transform 0.6s ease-out;
   transform-origin: center center;
 }
@@ -32,6 +32,7 @@
   opacity: 0; /* Initially invisible */
   transform: translateX(80px); /* Start position for smooth entrance */
   transition: transform 2s ease-out, opacity 1s ease-out;
+  text-align: left;
 }
 
 /* Heading style */
@@ -73,6 +74,10 @@
     flex-direction: column;
     transform: none; /* Remove 3D transformation */
     transition: none; /* Remove transition */
+    margin-left: 0px;
+    align-content: start;
+    align-items: start;
+    align-self: self-start;
   }
 
   .about-image {

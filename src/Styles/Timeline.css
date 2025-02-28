@@ -1,8 +1,10 @@
 /* Timeline.css */
 
+
 #Schedule {
     opacity: 0;
     transition: opacity 1s ease-in-out;
+    background: #0d61ce;
 }
 
 #Schedule.fade-in {

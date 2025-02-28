@@ -28,7 +28,7 @@ const PrizeCard = () => {
   }, []);
 
   return (
-    <section  className="bg-[#014EB6] text-white py-16  flex items-center justify-center">
+    <section  className="bg-gradient-to-b from-[#0681a3] to-[#0d61ce] text-white py-16  flex items-center justify-center">
       <div id="Prize" className="container mx-auto px-4">
         <h1 className="text-5xl font-bold text-center py-8">
           <span className="text-white">Exciting Prizes</span> Await!

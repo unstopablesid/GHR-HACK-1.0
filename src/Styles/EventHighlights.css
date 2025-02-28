@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #0e7490 ;
+  background: linear-gradient(to bottom, #0589ae, #0681a3);
   padding: 3.125rem; /* 50px to rem */
   height: 100vh; /* Full screen height */
   perspective: 1200px; /* Add depth for 3D effect */
@@ -58,7 +58,7 @@
   max-width: 18.75rem; /* 300px to rem */
   /* transition: transform 0.6s ease-out; */
   /* transform-origin: center center; */
-  margin-left: 1.875rem; /* Added margin on left side */
+  margin-left: 90px; /* Added margin on left side */
 }
 
 /* Mobile styling */

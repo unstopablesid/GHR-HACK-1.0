@@ -1,12 +1,19 @@
 import { useRef, useEffect } from "react";
 import "../Styles/EventHighlights.css";
 import mantaRayImage from "../assets/images/manta-ray.png";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Lottie from "lottie-react";
+import blockchainAnimation from "../assets/event.json";
 
 const EventHighlights = () => {
   const imageRef = useRef(null);
+  const animationRef = useRef(null);
   const textRef = useRef(null);
 
   useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
     const handleScroll = () => {
       const textPosition = textRef.current.getBoundingClientRect().top;
       const imagePosition = imageRef.current.getBoundingClientRect().top;
@@ -18,6 +25,19 @@ const EventHighlights = () => {
       if (imagePosition < screenPosition) {
         imageRef.current.classList.add("fade-in-top");
       }
+      gsap.fromTo(
+        animationRef.current,
+        { opacity: 0, y: -50 }, // Start position (above)
+        {
+          opacity: 1,
+          y: 0, // End position (original position)
+          scrollTrigger: {
+            trigger: animationRef.current,
+            end: "bottom 20%",
+            scrub: true, // Smooth scrolling effect
+          },
+        }
+      );
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -52,12 +72,10 @@ const EventHighlights = () => {
             </li>
           </ul>
         </div>
-        <img
-          ref={imageRef}
-          src={mantaRayImage}
-          alt="Manta Ray"
-          className="highlights-image w-full md:w-1/2 lg:w-1/3 mt-8 md:mt-0"
-        />
+        <div ref={animationRef} className="highlights-image z-10 w-full md:w-[70%] lg:w-[100%] xl:w-[55%] mb-4 md:mb-0 md:mr-[-30px] lg:mr-[-50px]">
+  <Lottie animationData={blockchainAnimation} loop autoplay />
+</div>
+
       </div>
     </div>
   );

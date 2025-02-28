@@ -11,7 +11,7 @@ const Mentors = () => {
   return (
     <div className="bg-[#014EB6] font-[Ghr4] text-white py-10 px-5 md:px-20">
       <div className="text-center">
-        <h1 className="text-7xl mb-10 ">Our Mentors</h1>
+        <h1 className="text-5xl mb-10 ">Our Mentors</h1>
         <h2 className="text-orange-400 font-bold text-lg">Chief Patron</h2>
           <div className="grid md:grid-cols-2 gap-10 mb-8">
             <div className="text-center">

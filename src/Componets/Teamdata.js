@@ -84,7 +84,7 @@ Marketing: [
 ],
   Finance: [
     { name: "Shreyash Badgujar", role: "Finance Head", photo: ShreyadhB, linkedin: "" },
-    { name: "Rohit Pitrubhakt", role: "Member", photo: Rohit, linkedin: "" },
+    { name: "Rohit Pitrubhakt", role: "Finance Head", photo: Rohit, linkedin: "" },
     { name: "Gautami Upasani", role: "Member", photo: Gautami, linkedin: "" },
   ],
   Logistic: [

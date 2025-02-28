@@ -59,7 +59,7 @@ const Contact = () => {
     }, []);
 
     return (
-        <div id="Contact" className="Main1 flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-12 p-4 min-h-screen">
+        <div id="Contact" className="Main1  flex flex-col md:flex-row items-center justify-center space-y-8 md:space-y-0 md:space-x-12 p-4 min-h-screen">
             <div
                 ref={leftSectionRef}
                 className="text-white text-center md:text-left transition-opacity opacity-0 transform -translate-x-10"
