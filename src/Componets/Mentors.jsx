@@ -11,16 +11,17 @@ const Mentors = () => {
   return (
     <div className="bg-[#014EB6] font-[Ghr4] text-white py-10 px-5 md:px-20">
       <div className="text-center">
-        <h1 className="text-5xl mb-10 ">Our Mentors</h1>
+        <h1 className="text-7xl mb-10 ">Our Mentors</h1>
+        <h2 className="text-orange-400 font-bold text-lg">Chief Patron</h2>
           <div className="grid md:grid-cols-2 gap-10 mb-8">
             <div className="text-center">
-              <h2 className="text-orange-400 font-bold text-lg">Chief Patron</h2>
+             
               <img src={Sunil} alt="Sunil Raisoni" className="mx-auto justify-center rounded-full mb-2 w-[18rem]" />
               <p className="font-semibold text-xl">Honrable Shri Sunil Raisoni</p>
               <p>Chairman, Raisoni Education</p>
             </div>
             <div className="text-center">
-              <h2 className="text-orange-400 font-bold text-lg">Chief Patron</h2>
+              
               <img src={shreyas} alt="Shreyas Raisoni" className="mx-auto justify-center rounded-full mb-2 w-[18rem]" />
               <p className="font-semibold text-xl">Honrable Shri Shreyash Raisoni</p>
               <p>Executive Director, GHRCEM, Jalgaon</p>
@@ -28,25 +29,40 @@ const Mentors = () => {
           </div>
 
           {/* Patrons and Conveners */}
+          <h2 className="text-orange-400 font-bold text-lg text-center">Patron</h2>
         <div className="grid md:grid-cols-2 gap-10 mb-8">
+        
           <div>
-            <h2 className="text-orange-400 font-bold text-lg">Patron</h2>
+            
             <img src={Preeti} alt="Preeti agarwag" className="mx-auto justify-center rounded-full mb-2 w-[18rem]" />
             <p className="font-semibold text-xl">Dr Preeti Agarwal</p>
             <p>Director, GHRCEM, Jalgaon</p>
+           
+          </div>
+          <div>
             <img src={Sanjay} alt="Sanjay shekhawat" className="mx-auto mt-2 justify-center rounded-full mb-2 w-[18rem]" />
             <p className="font-semibold text-xl mt-2">Dr Sanjay Shekhawat</p>
             <p>Dean Academics, GHRCEM, Jalgaon</p>
           </div>
-          <div>
-            <h2 className="text-orange-400 font-bold text-lg">Convener</h2>
+        
+        
+        </div>
+        <h2 className="text-orange-400 font-bold text-lg text-center">Convener</h2>
+        <div className="grid md:grid-cols-2 gap-10 mb-8">
+        
+        <div>
+            
             <img src={Sonal} alt="Shreyas Raisoni" className="mx-auto justify-center rounded-full mb-2 w-[18rem]" />
             <p className="font-semibold text-xl">Dr Sonal Patil</p>
             <p>HoD, CSE/IT Department</p>
-            <img src={Swati} alt="Shreyas Raisoni" className="mx-auto justify-center rounded-full mb-2 w-[18rem]" />
+          </div>
+          <div>
+            
+            <img src={Swati} alt="Swati patil" className="mx-auto justify-center rounded-full mb-2 w-[18rem]" />
             <p className="font-semibold text-xl mt-2">Dr Swati Patil</p>
             <p>HoD, AI/DS/AIML Department</p>
           </div>
+        
         </div>
         {/* Faculty co-ordinator */}
         <div className="mb-[5rem]">
