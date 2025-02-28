@@ -42,6 +42,7 @@
   margin-bottom: 1.25rem; /* 20px to rem */
   text-transform: uppercase;
   letter-spacing: 1px;
+  text-align: center;
 }
 
 /* Paragraph text style */
