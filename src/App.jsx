@@ -16,6 +16,7 @@ import Video from './Componets/Video'
 import { Analytics } from "@vercel/analytics/react"
 import Mentors from './Componets/Mentors'
 import Lenis from 'lenis'
+import ProblemStatements from './Componets/ProblemStatement'
 
 
 
@@ -32,6 +33,7 @@ function App() {
     <AboutSection />
     <EventHighlights />
     <HackathonThemes />
+    <ProblemStatements />
     <PrizeCards />
     <RegistrationTimeline />
     <RegistrationDetails />
