@@ -7,6 +7,7 @@ import ETH from '../assets/Sponser/ETHindia.jpg';
 import info from '../assets/Sponser/Info Planet White Logo A.png';
 import TheDevArmy from '../assets/Sponser/TheDevArmy.jpg';
 import Regal from "../assets/Sponser/Regal-palace.jpeg";
+import nic from "../assets/Sponser/nik.png";
 const Sponsors = () => {
   return (
     <div id="Sponsers" className="bg-[#014EB6] text-white py-16 ">
@@ -24,9 +25,10 @@ const Sponsors = () => {
 
         <div className="mt-16 align-center justify-center text-center font-[Ghr4]">
           <h3 className="text-3xl font-semibold text-center mb-6">Silver Sponsors</h3>
-          <div className="grid  md:grid-cols-2 lg:grid-cols-2 gap-4   md:px-[24rem]">
+          <div className="grid  md:grid-cols-2 lg:grid-cols-3 gap-4 md:px-[24rem]">
             <img src={ETH} alt="ETHINDIA LOGO" className=" mx-auto w-[20rem] rounded-xl " />
             <img src={Polygon} alt="POLYGON LOGO" className="mx-auto w-[20rem] rounded-xl" />
+            <img src={nic} alt="Nic enterprices LOGO" className="mx-auto h-[4.9rem] rounded-xl" />
           </div>
         </div>
         <div className="mt-16 align-center justify-center text-center font-[Ghr4]">
