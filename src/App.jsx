@@ -17,7 +17,7 @@ import { Analytics } from "@vercel/analytics/react"
 import Mentors from './Componets/Mentors'
 import Lenis from 'lenis'
 import ProblemStatements from './Componets/ProblemStatement'
-import CountdownTimer from './Componets/Timer'
+
 
 
 
@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className='App' >
-      {/* <CountdownTimer/> */}
+      
     <Background />
     <AboutSection />
     <EventHighlights />
